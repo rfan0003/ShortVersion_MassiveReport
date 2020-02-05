@@ -1,0 +1,1184 @@
+<item image_presentation_Congruent>
+/1 = "squareimage\incongruent cropped\SquareIncongruent_112.jpg"
+/2 = "squareimage\congruent cropped\SquareCongruent_054.jpg"
+/3 = "squareimage\incongruent cropped\SquareIncongruent_018.jpg"
+/4 = "squareimage\congruent cropped\SquareCongruent_120.jpg"
+/5 = "squareimage\incongruent cropped\SquareIncongruent_118.jpg"
+/6 = "squareimage\incongruent cropped\SquareIncongruent_105.jpg"
+/7 = "squareimage\congruent cropped\SquareCongruent_052.jpg"
+/8 = "squareimage\congruent cropped\SquareCongruent_062.jpg"
+/9 = "squareimage\congruent cropped\SquareCongruent_140.jpg"
+/10 = "squareimage\congruent cropped\SquareCongruent_084.jpg"
+/11 = "squareimage\congruent cropped\SquareCongruent_103.jpg"
+/12 = "squareimage\incongruent cropped\SquareIncongruent_117.jpg"
+/13 = "squareimage\incongruent cropped\SquareIncongruent_005.jpg"
+/14 = "squareimage\congruent cropped\SquareCongruent_025.jpg"
+/15 = "squareimage\incongruent cropped\SquareIncongruent_058.jpg"
+/16 = "squareimage\incongruent cropped\SquareIncongruent_061.jpg"
+/17 = "squareimage\incongruent cropped\SquareIncongruent_078.jpg"
+/18 = "squareimage\congruent cropped\SquareCongruent_031.jpg"
+/19 = "squareimage\incongruent cropped\SquareIncongruent_017.jpg"
+/20 = "squareimage\congruent cropped\SquareCongruent_024.jpg"
+</item>
+
+<item image_presentation_Congruent_practice>
+/1 = "squareimage\incongruent cropped\SquareIncongruent_050.jpg"
+/2 = "squareimage\congruent cropped\SquareCongruent_008.jpg"
+/3 = "squareimage\congruent cropped\SquareCongruent_127.jpg"
+</item>
+
+<item Masking_item_1>
+/1 = "mask\mask_054.jpg"
+/2 = "mask\mask_015.jpg"
+/3 = "mask\mask_099.jpg"
+/4 = "mask\mask_011.jpg"
+/5 = "mask\mask_066.jpg"
+/6 = "mask\mask_023.jpg"
+/7 = "mask\mask_137.jpg"
+/8 = "mask\mask_038.jpg"
+/9 = "mask\mask_051.jpg"
+/10 = "mask\mask_102.jpg"
+/11 = "mask\mask_007.jpg"
+/12 = "mask\mask_071.jpg"
+/13 = "mask\mask_053.jpg"
+/14 = "mask\mask_135.jpg"
+/15 = "mask\mask_050.jpg"
+/16 = "mask\mask_028.jpg"
+/17 = "mask\mask_002.jpg"
+/18 = "mask\mask_065.jpg"
+/19 = "mask\mask_045.jpg"
+/20 = "mask\mask_128.jpg"
+/21 = "mask\mask_096.jpg"
+/22 = "mask\mask_080.jpg"
+/23 = "mask\mask_005.jpg"
+/24 = "mask\mask_052.jpg"
+/25 = "mask\mask_125.jpg"
+/26 = "mask\mask_106.jpg"
+/27 = "mask\mask_118.jpg"
+/28 = "mask\mask_138.jpg"
+</item>
+
+<item Masking_item_2>
+/1 = "mask\mask_121.jpg"
+/2 = "mask\mask_120.jpg"
+/3 = "mask\mask_119.jpg"
+/4 = "mask\mask_130.jpg"
+/5 = "mask\mask_117.jpg"
+/6 = "mask\mask_082.jpg"
+/7 = "mask\mask_069.jpg"
+/8 = "mask\mask_078.jpg"
+/9 = "mask\mask_003.jpg"
+/10 = "mask\mask_111.jpg"
+/11 = "mask\mask_140.jpg"
+/12 = "mask\mask_108.jpg"
+/13 = "mask\mask_104.jpg"
+/14 = "mask\mask_061.jpg"
+/15 = "mask\mask_132.jpg"
+/16 = "mask\mask_134.jpg"
+/17 = "mask\mask_110.jpg"
+/18 = "mask\mask_042.jpg"
+/19 = "mask\mask_046.jpg"
+/20 = "mask\mask_020.jpg"
+/21 = "mask\mask_035.jpg"
+/22 = "mask\mask_073.jpg"
+/23 = "mask\mask_084.jpg"
+/24 = "mask\mask_009.jpg"
+/25 = "mask\mask_122.jpg"
+/26 = "mask\mask_081.jpg"
+/27 = "mask\mask_131.jpg"
+/28 = "mask\mask_047.jpg"
+</item>
+
+<item Masking_item_3>
+/1 = "mask\mask_056.jpg"
+/2 = "mask\mask_133.jpg"
+/3 = "mask\mask_001.jpg"
+/4 = "mask\mask_094.jpg"
+/5 = "mask\mask_074.jpg"
+/6 = "mask\mask_105.jpg"
+/7 = "mask\mask_008.jpg"
+/8 = "mask\mask_014.jpg"
+/9 = "mask\mask_092.jpg"
+/10 = "mask\mask_041.jpg"
+/11 = "mask\mask_097.jpg"
+/12 = "mask\mask_087.jpg"
+/13 = "mask\mask_032.jpg"
+/14 = "mask\mask_139.jpg"
+/15 = "mask\mask_017.jpg"
+/16 = "mask\mask_030.jpg"
+/17 = "mask\mask_013.jpg"
+/18 = "mask\mask_044.jpg"
+/19 = "mask\mask_040.jpg"
+/20 = "mask\mask_063.jpg"
+/21 = "mask\mask_124.jpg"
+/22 = "mask\mask_062.jpg"
+/23 = "mask\mask_026.jpg"
+/24 = "mask\mask_067.jpg"
+/25 = "mask\mask_068.jpg"
+/26 = "mask\mask_055.jpg"
+/27 = "mask\mask_100.jpg"
+/28 = "mask\mask_086.jpg"
+</item>
+
+<item Masking_item_4>
+/1 = "mask\mask_095.jpg"
+/2 = "mask\mask_059.jpg"
+/3 = "mask\mask_113.jpg"
+/4 = "mask\mask_075.jpg"
+/5 = "mask\mask_093.jpg"
+/6 = "mask\mask_037.jpg"
+/7 = "mask\mask_072.jpg"
+/8 = "mask\mask_136.jpg"
+/9 = "mask\mask_058.jpg"
+/10 = "mask\mask_012.jpg"
+/11 = "mask\mask_019.jpg"
+/12 = "mask\mask_004.jpg"
+/13 = "mask\mask_103.jpg"
+/14 = "mask\mask_070.jpg"
+/15 = "mask\mask_060.jpg"
+/16 = "mask\mask_031.jpg"
+/17 = "mask\mask_076.jpg"
+/18 = "mask\mask_126.jpg"
+/19 = "mask\mask_018.jpg"
+/20 = "mask\mask_010.jpg"
+/21 = "mask\mask_036.jpg"
+/22 = "mask\mask_027.jpg"
+/23 = "mask\mask_034.jpg"
+/24 = "mask\mask_116.jpg"
+/25 = "mask\mask_088.jpg"
+/26 = "mask\mask_049.jpg"
+/27 = "mask\mask_129.jpg"
+/28 = "mask\mask_043.jpg"
+</item>
+
+<item Masking_item_5>
+/1 = "mask\mask_085.jpg"
+/2 = "mask\mask_016.jpg"
+/3 = "mask\mask_057.jpg"
+/4 = "mask\mask_089.jpg"
+/5 = "mask\mask_025.jpg"
+/6 = "mask\mask_029.jpg"
+/7 = "mask\mask_098.jpg"
+/8 = "mask\mask_112.jpg"
+/9 = "mask\mask_039.jpg"
+/10 = "mask\mask_109.jpg"
+/11 = "mask\mask_021.jpg"
+/12 = "mask\mask_077.jpg"
+/13 = "mask\mask_083.jpg"
+/14 = "mask\mask_127.jpg"
+/15 = "mask\mask_123.jpg"
+/16 = "mask\mask_091.jpg"
+/17 = "mask\mask_115.jpg"
+/18 = "mask\mask_022.jpg"
+/19 = "mask\mask_006.jpg"
+/20 = "mask\mask_024.jpg"
+/21 = "mask\mask_064.jpg"
+/22 = "mask\mask_101.jpg"
+/23 = "mask\mask_090.jpg"
+/24 = "mask\mask_048.jpg"
+/25 = "mask\mask_033.jpg"
+/26 = "mask\mask_114.jpg"
+/27 = "mask\mask_107.jpg"
+/28 = "mask\mask_079.jpg"
+</item>
+
+<item Masking_patch_item_1>
+/1 = "maskCrop\maskCrop_054.jpg"
+/2 = "maskCrop\maskCrop_015.jpg"
+/3 = "maskCrop\maskCrop_099.jpg"
+/4 = "maskCrop\maskCrop_011.jpg"
+/5 = "maskCrop\maskCrop_066.jpg"
+/6 = "maskCrop\maskCrop_023.jpg"
+/7 = "maskCrop\maskCrop_137.jpg"
+/8 = "maskCrop\maskCrop_038.jpg"
+/9 = "maskCrop\maskCrop_051.jpg"
+/10 = "maskCrop\maskCrop_102.jpg"
+/11 = "maskCrop\maskCrop_007.jpg"
+/12 = "maskCrop\maskCrop_071.jpg"
+/13 = "maskCrop\maskCrop_053.jpg"
+/14 = "maskCrop\maskCrop_135.jpg"
+/15 = "maskCrop\maskCrop_050.jpg"
+/16 = "maskCrop\maskCrop_028.jpg"
+/17 = "maskCrop\maskCrop_002.jpg"
+/18 = "maskCrop\maskCrop_065.jpg"
+/19 = "maskCrop\maskCrop_045.jpg"
+/20 = "maskCrop\maskCrop_128.jpg"
+/21 = "maskCrop\maskCrop_096.jpg"
+/22 = "maskCrop\maskCrop_080.jpg"
+/23 = "maskCrop\maskCrop_005.jpg"
+/24 = "maskCrop\maskCrop_052.jpg"
+/25 = "maskCrop\maskCrop_125.jpg"
+/26 = "maskCrop\maskCrop_106.jpg"
+/27 = "maskCrop\maskCrop_118.jpg"
+/28 = "maskCrop\maskCrop_138.jpg"
+</item>
+
+<item Masking_patch_item_2>
+/1 = "maskCrop\maskCrop_121.jpg"
+/2 = "maskCrop\maskCrop_120.jpg"
+/3 = "maskCrop\maskCrop_119.jpg"
+/4 = "maskCrop\maskCrop_130.jpg"
+/5 = "maskCrop\maskCrop_117.jpg"
+/6 = "maskCrop\maskCrop_082.jpg"
+/7 = "maskCrop\maskCrop_069.jpg"
+/8 = "maskCrop\maskCrop_078.jpg"
+/9 = "maskCrop\maskCrop_003.jpg"
+/10 = "maskCrop\maskCrop_111.jpg"
+/11 = "maskCrop\maskCrop_140.jpg"
+/12 = "maskCrop\maskCrop_108.jpg"
+/13 = "maskCrop\maskCrop_104.jpg"
+/14 = "maskCrop\maskCrop_061.jpg"
+/15 = "maskCrop\maskCrop_132.jpg"
+/16 = "maskCrop\maskCrop_134.jpg"
+/17 = "maskCrop\maskCrop_110.jpg"
+/18 = "maskCrop\maskCrop_042.jpg"
+/19 = "maskCrop\maskCrop_046.jpg"
+/20 = "maskCrop\maskCrop_020.jpg"
+/21 = "maskCrop\maskCrop_035.jpg"
+/22 = "maskCrop\maskCrop_073.jpg"
+/23 = "maskCrop\maskCrop_084.jpg"
+/24 = "maskCrop\maskCrop_009.jpg"
+/25 = "maskCrop\maskCrop_122.jpg"
+/26 = "maskCrop\maskCrop_081.jpg"
+/27 = "maskCrop\maskCrop_131.jpg"
+/28 = "maskCrop\maskCrop_047.jpg"
+</item>
+
+<item Masking_patch_item_3>
+/1 = "maskCrop\maskCrop_056.jpg"
+/2 = "maskCrop\maskCrop_133.jpg"
+/3 = "maskCrop\maskCrop_001.jpg"
+/4 = "maskCrop\maskCrop_094.jpg"
+/5 = "maskCrop\maskCrop_074.jpg"
+/6 = "maskCrop\maskCrop_105.jpg"
+/7 = "maskCrop\maskCrop_008.jpg"
+/8 = "maskCrop\maskCrop_014.jpg"
+/9 = "maskCrop\maskCrop_092.jpg"
+/10 = "maskCrop\maskCrop_041.jpg"
+/11 = "maskCrop\maskCrop_097.jpg"
+/12 = "maskCrop\maskCrop_087.jpg"
+/13 = "maskCrop\maskCrop_032.jpg"
+/14 = "maskCrop\maskCrop_139.jpg"
+/15 = "maskCrop\maskCrop_017.jpg"
+/16 = "maskCrop\maskCrop_030.jpg"
+/17 = "maskCrop\maskCrop_013.jpg"
+/18 = "maskCrop\maskCrop_044.jpg"
+/19 = "maskCrop\maskCrop_040.jpg"
+/20 = "maskCrop\maskCrop_063.jpg"
+/21 = "maskCrop\maskCrop_124.jpg"
+/22 = "maskCrop\maskCrop_062.jpg"
+/23 = "maskCrop\maskCrop_026.jpg"
+/24 = "maskCrop\maskCrop_067.jpg"
+/25 = "maskCrop\maskCrop_068.jpg"
+/26 = "maskCrop\maskCrop_055.jpg"
+/27 = "maskCrop\maskCrop_100.jpg"
+/28 = "maskCrop\maskCrop_086.jpg"
+</item>
+
+<item Masking_patch_item_4>
+/1 = "maskCrop\maskCrop_095.jpg"
+/2 = "maskCrop\maskCrop_059.jpg"
+/3 = "maskCrop\maskCrop_113.jpg"
+/4 = "maskCrop\maskCrop_075.jpg"
+/5 = "maskCrop\maskCrop_093.jpg"
+/6 = "maskCrop\maskCrop_037.jpg"
+/7 = "maskCrop\maskCrop_072.jpg"
+/8 = "maskCrop\maskCrop_136.jpg"
+/9 = "maskCrop\maskCrop_058.jpg"
+/10 = "maskCrop\maskCrop_012.jpg"
+/11 = "maskCrop\maskCrop_019.jpg"
+/12 = "maskCrop\maskCrop_004.jpg"
+/13 = "maskCrop\maskCrop_103.jpg"
+/14 = "maskCrop\maskCrop_070.jpg"
+/15 = "maskCrop\maskCrop_060.jpg"
+/16 = "maskCrop\maskCrop_031.jpg"
+/17 = "maskCrop\maskCrop_076.jpg"
+/18 = "maskCrop\maskCrop_126.jpg"
+/19 = "maskCrop\maskCrop_018.jpg"
+/20 = "maskCrop\maskCrop_010.jpg"
+/21 = "maskCrop\maskCrop_036.jpg"
+/22 = "maskCrop\maskCrop_027.jpg"
+/23 = "maskCrop\maskCrop_034.jpg"
+/24 = "maskCrop\maskCrop_116.jpg"
+/25 = "maskCrop\maskCrop_088.jpg"
+/26 = "maskCrop\maskCrop_049.jpg"
+/27 = "maskCrop\maskCrop_129.jpg"
+/28 = "maskCrop\maskCrop_043.jpg"
+</item>
+
+<item Masking_patch_item_5>
+/1 = "maskCrop\maskCrop_085.jpg"
+/2 = "maskCrop\maskCrop_016.jpg"
+/3 = "maskCrop\maskCrop_057.jpg"
+/4 = "maskCrop\maskCrop_089.jpg"
+/5 = "maskCrop\maskCrop_025.jpg"
+/6 = "maskCrop\maskCrop_029.jpg"
+/7 = "maskCrop\maskCrop_098.jpg"
+/8 = "maskCrop\maskCrop_112.jpg"
+/9 = "maskCrop\maskCrop_039.jpg"
+/10 = "maskCrop\maskCrop_109.jpg"
+/11 = "maskCrop\maskCrop_021.jpg"
+/12 = "maskCrop\maskCrop_077.jpg"
+/13 = "maskCrop\maskCrop_083.jpg"
+/14 = "maskCrop\maskCrop_127.jpg"
+/15 = "maskCrop\maskCrop_123.jpg"
+/16 = "maskCrop\maskCrop_091.jpg"
+/17 = "maskCrop\maskCrop_115.jpg"
+/18 = "maskCrop\maskCrop_022.jpg"
+/19 = "maskCrop\maskCrop_006.jpg"
+/20 = "maskCrop\maskCrop_024.jpg"
+/21 = "maskCrop\maskCrop_064.jpg"
+/22 = "maskCrop\maskCrop_101.jpg"
+/23 = "maskCrop\maskCrop_090.jpg"
+/24 = "maskCrop\maskCrop_048.jpg"
+/25 = "maskCrop\maskCrop_033.jpg"
+/26 = "maskCrop\maskCrop_114.jpg"
+/27 = "maskCrop\maskCrop_107.jpg"
+/28 = "maskCrop\maskCrop_079.jpg"
+</item>
+
+<item CP_patch_practice>
+/1 = "congruent patch\cong_50_9_p.jpg"
+/2 = "incongruent patch\incong_8_2_p.jpg"
+/3 = "incongruent patch\incong_127_8_p.jpg"
+</item>
+
+<item CP_patch>
+/1 = "congruent patch\cong_112_3_p.jpg"
+/2 = "incongruent patch\incong_54_5_p.jpg"
+/3 = "congruent patch\cong_18_8_p.jpg"
+/4 = "incongruent patch\incong_120_6_p.jpg"
+/5 = "congruent patch\cong_118_8_p.jpg"
+/6 = "congruent patch\cong_105_7_p.jpg"
+/7 = "incongruent patch\incong_52_5_p.jpg"
+/8 = "incongruent patch\incong_62_6_p.jpg"
+/9 = "incongruent patch\incong_140_2_p.jpg"
+/10 = "incongruent patch\incong_84_5_p.jpg"
+/11 = "incongruent patch\incong_103_8_p.jpg"
+/12 = "congruent patch\cong_117_9_p.jpg"
+/13 = "congruent patch\cong_5_2_p.jpg"
+/14 = "incongruent patch\incong_25_8_p.jpg"
+/15 = "congruent patch\cong_58_5_p.jpg"
+/16 = "congruent patch\cong_61_9_p.jpg"
+/17 = "congruent patch\cong_78_9_p.jpg"
+/18 = "incongruent patch\incong_31_7_p.jpg"
+/19 = "congruent patch\cong_17_6_p.jpg"
+/20 = "incongruent patch\incong_24_5_p.jpg"
+</item>
+
+<item CP_x_coordinates_practice>
+/1 = "61.3%"
+/2 = "50%"
+/3 = "50%"
+</item>
+
+<item CP_y_coordinates_practice>
+/1 = "70%"
+/2 = "30%"
+/3 = "70%"
+</item>
+
+<item CP_x_coordinates>
+/1 = "61.3%"
+/2 = "50%"
+/3 = "50%"
+/4 = "61.3%"
+/5 = "50%"
+/6 = "38.7%"
+/7 = "50%"
+/8 = "61.3%"
+/9 = "50%"
+/10 = "50%"
+/11 = "50%"
+/12 = "61.3%"
+/13 = "50%"
+/14 = "50%"
+/15 = "50%"
+/16 = "61.3%"
+/17 = "61.3%"
+/18 = "38.7%"
+/19 = "61.3%"
+/20 = "50%"
+</item>
+
+<item CP_y_coordinates>
+/1 = "30%"
+/2 = "50%"
+/3 = "70%"
+/4 = "50%"
+/5 = "70%"
+/6 = "70%"
+/7 = "50%"
+/8 = "50%"
+/9 = "30%"
+/10 = "50%"
+/11 = "70%"
+/12 = "70%"
+/13 = "30%"
+/14 = "70%"
+/15 = "50%"
+/16 = "70%"
+/17 = "70%"
+/18 = "70%"
+/19 = "50%"
+/20 = "50%"
+</item>
+
+<picture Patch_locate_1_practice>
+  / size = (20%,20%)
+  / position = (38.7%,30%)
+  /items = ()
+  /select = sequence
+</picture>
+<item Patch_locate_1_practice>
+/1 = "incongruent patch\incong_50_1_a.jpg"
+</item>
+
+<picture Patch_locate_1>
+  / size = (20%,20%)
+  / position = (38.7%,30%)
+  /items = ("incongruent patch\incong_112_1_a.jpg",
+"congruent patch\cong_54_1_a.jpg",
+"incongruent patch\incong_105_1_a.jpg",
+"congruent patch\cong_52_1_a.jpg",
+"congruent patch\cong_84_1_a.jpg",
+"incongruent patch\incong_117_1_a.jpg",
+"incongruent patch\incong_58_1_a.jpg",
+"incongruent patch\incong_61_1_a.jpg",
+"incongruent patch\incong_78_1_a.jpg",
+"congruent patch\cong_31_1_a.jpg",
+"congruent patch\cong_24_1_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_3_practice>
+  / size = (20%,20%)
+  / position = (61.3%,30%)
+  /items = ()
+  /select = sequence
+</picture>
+
+<item Patch_locate_3_practice>
+/1 = "incongruent patch\incong_50_3_a.jpg"
+</item>
+<picture Patch_locate_3>
+  / size = (20%,20%)
+  / position = (61.3%,30%)
+  /items = ("incongruent patch\incong_112_3_p.jpg",
+"congruent patch\cong_54_3_a.jpg",
+"incongruent patch\incong_105_3_a.jpg",
+"congruent patch\cong_52_3_a.jpg",
+"congruent patch\cong_84_3_a.jpg",
+"incongruent patch\incong_117_3_a.jpg",
+"incongruent patch\incong_58_3_a.jpg",
+"incongruent patch\incong_61_3_a.jpg",
+"incongruent patch\incong_78_3_a.jpg",
+"congruent patch\cong_31_3_a.jpg",
+"congruent patch\cong_24_3_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_5_practice>
+  / size = (20%,20%)
+  / position = (50%,50%)
+  /items = ()
+  /select = sequence
+</picture>
+
+<item Patch_locate_5_practice>
+/1 = "incongruent patch\incong_50_5_a.jpg"
+</item>
+
+<picture Patch_locate_5>
+  / size = (20%,20%)
+  / position = (50%,50%)
+  /items = ("incongruent patch\incong_112_5_a.jpg",
+"congruent patch\cong_54_5_p.jpg",
+"incongruent patch\incong_105_5_a.jpg",
+"congruent patch\cong_52_5_p.jpg",
+"congruent patch\cong_84_5_p.jpg",
+"incongruent patch\incong_117_5_a.jpg",
+"incongruent patch\incong_58_5_p.jpg",
+"incongruent patch\incong_61_5_a.jpg",
+"incongruent patch\incong_78_5_a.jpg",
+"congruent patch\cong_31_5_a.jpg",
+"congruent patch\cong_24_5_p.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_7_practice>
+  / size = (20%,20%)
+  / position = (38.7%,70%)
+  /items = ()
+  /select = sequence
+</picture>
+
+<item Patch_locate_7_practice>
+/1 = "incongruent patch\incong_50_7_a.jpg"
+</item>
+
+<picture Patch_locate_7>
+  / size = (20%,20%)
+  / position = (38.7%,70%)
+  /items = ("incongruent patch\incong_112_7_a.jpg",
+"congruent patch\cong_54_7_a.jpg",
+"incongruent patch\incong_105_7_p.jpg",
+"congruent patch\cong_52_7_a.jpg",
+"congruent patch\cong_84_7_a.jpg",
+"incongruent patch\incong_117_7_a.jpg",
+"incongruent patch\incong_58_7_a.jpg",
+"incongruent patch\incong_61_7_a.jpg",
+"incongruent patch\incong_78_7_a.jpg",
+"congruent patch\cong_31_7_p.jpg",
+"congruent patch\cong_24_7_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_9_practice>
+  / size = (20%,20%)
+  / position = (61.3%,70%)
+  /items = ()
+  /select = sequence
+</picture>
+
+<item Patch_locate_9_practice>
+/1 = "incongruent patch\incong_50_9_p.jpg"
+</item>
+
+<picture Patch_locate_9>
+  / size = (20%,20%)
+  / position = (61.3%,70%)
+  /items = ("incongruent patch\incong_112_9_a.jpg",
+"congruent patch\cong_54_9_a.jpg",
+"incongruent patch\incong_105_9_a.jpg",
+"congruent patch\cong_52_9_a.jpg",
+"congruent patch\cong_84_9_a.jpg",
+"incongruent patch\incong_117_9_p.jpg",
+"incongruent patch\incong_58_9_a.jpg",
+"incongruent patch\incong_61_9_p.jpg",
+"incongruent patch\incong_78_9_p.jpg",
+"congruent patch\cong_31_9_a.jpg",
+"congruent patch\cong_24_9_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_2_practice>
+  / size = (20%,20%)
+  / position = (50%,30%)
+  /items = ()
+/select = sequence
+</picture>
+
+<item Patch_locate_2_practice>
+/1 = "congruent patch\cong_8_2_p.jpg"
+/2 = "congruent patch\cong_127_2_a.jpg"
+</item>
+
+<picture Patch_locate_2>
+  / size = (20%,20%)
+  / position = (50%,30%)
+  /items = ("incongruent patch\incong_18_2_a.jpg",
+"congruent patch\cong_120_2_a.jpg",
+"incongruent patch\incong_118_2_a.jpg",
+"congruent patch\cong_62_2_a.jpg",
+"congruent patch\cong_140_2_p.jpg",
+"congruent patch\cong_103_2_a.jpg",
+"incongruent patch\incong_5_2_p.jpg",
+"congruent patch\cong_25_2_a.jpg",
+"incongruent patch\incong_17_2_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_4_practice>
+  / size = (20%,20%)
+  / position = (38.7%,50%)
+  /items = ()
+  /select = sequence
+</picture>
+
+<item Patch_locate_4_practice>
+/1 = "congruent patch\cong_8_4_a.jpg"
+/2 = "congruent patch\cong_127_4_a.jpg"
+</item>
+
+<picture Patch_locate_4>
+  / size = (20%,20%)
+  / position = (38.7%,50%)
+  /items = ("incongruent patch\incong_18_4_a.jpg",
+"congruent patch\cong_120_4_a.jpg",
+"incongruent patch\incong_118_4_a.jpg",
+"congruent patch\cong_62_4_a.jpg",
+"congruent patch\cong_140_4_a.jpg",
+"congruent patch\cong_103_4_a.jpg",
+"incongruent patch\incong_5_4_a.jpg",
+"congruent patch\cong_25_4_a.jpg",
+"incongruent patch\incong_17_4_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_6_practice>
+  / size = (20%,20%)
+  / position = (61.3%,50%)
+  /items = ()
+  /select = sequence
+</picture>
+
+<item Patch_locate_6_practice>
+/1 = "congruent patch\cong_8_6_a.jpg"
+/2 = "congruent patch\cong_127_6_a.jpg"
+</item>
+
+<picture Patch_locate_6>
+  / size = (20%,20%)
+  / position = (61.3%,50%)
+  /items = ("incongruent patch\incong_18_6_a.jpg",
+"congruent patch\cong_120_6_p.jpg",
+"incongruent patch\incong_118_6_a.jpg",
+"congruent patch\cong_62_6_p.jpg",
+"congruent patch\cong_140_6_a.jpg",
+"congruent patch\cong_103_6_a.jpg",
+"incongruent patch\incong_5_6_a.jpg",
+"congruent patch\cong_25_6_a.jpg",
+"incongruent patch\incong_17_6_p.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_8_practice>
+  / size = (20%,20%)
+  / position = (50%,70%)
+  /items = ()
+  /select = sequence
+</picture>
+
+<item Patch_locate_8_practice>
+/1 = "congruent patch\cong_8_8_a.jpg"
+/2 = "congruent patch\cong_127_8_p.jpg"
+</item>
+
+<picture Patch_locate_8>
+  / size = (20%,20%)
+  / position = (50%,70%)
+  /items = ("incongruent patch\incong_18_8_p.jpg",
+"congruent patch\cong_120_8_a.jpg",
+"incongruent patch\incong_118_8_p.jpg",
+"congruent patch\cong_62_8_a.jpg",
+"congruent patch\cong_140_8_a.jpg",
+"congruent patch\cong_103_8_p.jpg",
+"incongruent patch\incong_5_8_a.jpg",
+"congruent patch\cong_25_8_p.jpg",
+"incongruent patch\incong_17_8_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_random_practice>
+  / size = (20%,20%)
+  / hposition = values.x_coordinate
+  / vposition = values.y_coordinate
+  / items = ("nishimoto patch\patch0002089.jpg",
+"nishimoto patch\patch0001917.jpg",
+"nishimoto patch\patch0006433.jpg",
+"nishimoto patch\patch0004264.jpg",
+"nishimoto patch\patch0003536.jpg",
+"nishimoto patch\patch0005185.jpg",
+"nishimoto patch\patch0000790.jpg",
+"nishimoto patch\patch0006225.jpg",
+"nishimoto patch\patch0003726.jpg",
+"nishimoto patch\patch0000039.jpg",
+"nishimoto patch\patch0001146.jpg",
+"nishimoto patch\patch0001845.jpg",
+"nishimoto patch\patch0000274.jpg",
+"nishimoto patch\patch0004796.jpg",
+"nishimoto patch\patch0000199.jpg",
+"nishimoto patch\patch0003515.jpg",
+"nishimoto patch\patch0003379.jpg",
+"nishimoto patch\patch0001958.jpg",
+"nishimoto patch\patch0004149.jpg",
+"nishimoto patch\patch0002020.jpg",
+"nishimoto patch\patch0006462.jpg",
+"nishimoto patch\patch0000043.jpg",
+"nishimoto patch\patch0003965.jpg",
+"nishimoto patch\patch0002589.jpg",
+"nishimoto patch\patch0002607.jpg",
+"nishimoto patch\patch0000149.jpg",
+"nishimoto patch\patch0004824.jpg",
+"nishimoto patch\patch0003892.jpg",
+"nishimoto patch\patch0005371.jpg",
+"nishimoto patch\patch0005552.jpg",
+"nishimoto patch\patch0001730.jpg",
+"nishimoto patch\patch0001402.jpg",
+"nishimoto patch\patch0002573.jpg",
+"nishimoto patch\patch0005045.jpg",
+"nishimoto patch\patch0000879.jpg",
+"nishimoto patch\patch0003014.jpg",
+"nishimoto patch\patch0000115.jpg",
+"nishimoto patch\patch0000498.jpg",
+"nishimoto patch\patch0004977.jpg",
+"nishimoto patch\patch0005625.jpg",
+"nishimoto patch\patch0006376.jpg",
+"nishimoto patch\patch0006388.jpg",
+"nishimoto patch\patch0004409.jpg",
+"nishimoto patch\patch0000921.jpg",
+"nishimoto patch\patch0000435.jpg",
+)
+  / select = noreplace
+</picture>
+
+<picture Patch_random>
+  / size = (20%,20%)
+  / hposition = values.x_coordinate
+  / vposition = values.y_coordinate
+  / items = ("nishimoto patch\patch0005478.jpg",
+"nishimoto patch\patch0005227.jpg",
+"nishimoto patch\patch0004408.jpg",
+"nishimoto patch\patch0005134.jpg",
+"nishimoto patch\patch0001430.jpg",
+"nishimoto patch\patch0005596.jpg",
+"nishimoto patch\patch0006860.jpg",
+"nishimoto patch\patch0002957.jpg",
+"nishimoto patch\patch0001729.jpg",
+"nishimoto patch\patch0003378.jpg",
+"nishimoto patch\patch0004706.jpg",
+"nishimoto patch\patch0005995.jpg",
+"nishimoto patch\patch0006648.jpg",
+"nishimoto patch\patch0000906.jpg",
+"nishimoto patch\patch0004898.jpg",
+"nishimoto patch\patch0000563.jpg",
+"nishimoto patch\patch0000728.jpg",
+"nishimoto patch\patch0000922.jpg",
+"nishimoto patch\patch0003619.jpg",
+"nishimoto patch\patch0003385.jpg",
+"nishimoto patch\patch0003132.jpg",
+"nishimoto patch\patch0005606.jpg",
+"nishimoto patch\patch0003715.jpg",
+"nishimoto patch\patch0004696.jpg",
+"nishimoto patch\patch0003394.jpg",
+"nishimoto patch\patch0002336.jpg",
+"nishimoto patch\patch0001817.jpg",
+"nishimoto patch\patch0006833.jpg",
+"nishimoto patch\patch0001855.jpg",
+"nishimoto patch\patch0005542.jpg",
+"nishimoto patch\patch0003487.jpg",
+"nishimoto patch\patch0002250.jpg",
+"nishimoto patch\patch0004322.jpg",
+"nishimoto patch\patch0000049.jpg",
+"nishimoto patch\patch0000442.jpg",
+"nishimoto patch\patch0006449.jpg",
+"nishimoto patch\patch0006351.jpg",
+"nishimoto patch\patch0005827.jpg",
+"nishimoto patch\patch0006402.jpg",
+"nishimoto patch\patch0004758.jpg",
+"nishimoto patch\patch0005443.jpg",
+"nishimoto patch\patch0004858.jpg",
+"nishimoto patch\patch0001393.jpg",
+"nishimoto patch\patch0003168.jpg",
+"nishimoto patch\patch0005523.jpg",
+"nishimoto patch\patch0000014.jpg",
+"nishimoto patch\patch0003888.jpg",
+"nishimoto patch\patch0003032.jpg",
+"nishimoto patch\patch0000409.jpg",
+"nishimoto patch\patch0003092.jpg",
+"nishimoto patch\patch0005873.jpg",
+"nishimoto patch\patch0004324.jpg",
+"nishimoto patch\patch0005186.jpg",
+"nishimoto patch\patch0006542.jpg",
+"nishimoto patch\patch0002274.jpg",
+"nishimoto patch\patch0005214.jpg",
+"nishimoto patch\patch0006100.jpg",
+"nishimoto patch\patch0003028.jpg",
+"nishimoto patch\patch0003644.jpg",
+"nishimoto patch\patch0004559.jpg",
+"nishimoto patch\patch0003276.jpg",
+"nishimoto patch\patch0001280.jpg",
+"nishimoto patch\patch0001578.jpg",
+"nishimoto patch\patch0002876.jpg",
+"nishimoto patch\patch0000107.jpg",
+"nishimoto patch\patch0005239.jpg",
+"nishimoto patch\patch0000434.jpg",
+"nishimoto patch\patch0003012.jpg",
+"nishimoto patch\patch0003787.jpg",
+"nishimoto patch\patch0004256.jpg",
+"nishimoto patch\patch0003043.jpg",
+"nishimoto patch\patch0000566.jpg",
+"nishimoto patch\patch0001980.jpg",
+"nishimoto patch\patch0000511.jpg",
+"nishimoto patch\patch0005088.jpg",
+"nishimoto patch\patch0002414.jpg",
+"nishimoto patch\patch0004545.jpg",
+"nishimoto patch\patch0003357.jpg",
+"nishimoto patch\patch0002666.jpg",
+"nishimoto patch\patch0002277.jpg",
+"nishimoto patch\patch0000718.jpg",
+"nishimoto patch\patch0002580.jpg",
+"nishimoto patch\patch0002628.jpg",
+"nishimoto patch\patch0003354.jpg",
+"nishimoto patch\patch0005538.jpg",
+"nishimoto patch\patch0004812.jpg",
+"nishimoto patch\patch0005913.jpg",
+"nishimoto patch\patch0003564.jpg",
+"nishimoto patch\patch0005948.jpg",
+"nishimoto patch\patch0003238.jpg",
+"nishimoto patch\patch0001842.jpg",
+"nishimoto patch\patch0004377.jpg",
+"nishimoto patch\patch0003913.jpg",
+"nishimoto patch\patch0003762.jpg",
+"nishimoto patch\patch0002734.jpg",
+"nishimoto patch\patch0002922.jpg",
+"nishimoto patch\patch0000953.jpg",
+"nishimoto patch\patch0002030.jpg",
+"nishimoto patch\patch0000051.jpg",
+"nishimoto patch\patch0006478.jpg",
+"nishimoto patch\patch0004231.jpg",
+"nishimoto patch\patch0006193.jpg",
+"nishimoto patch\patch0006949.jpg",
+"nishimoto patch\patch0002778.jpg",
+"nishimoto patch\patch0003845.jpg",
+"nishimoto patch\patch0004138.jpg",
+"nishimoto patch\patch0003513.jpg",
+"nishimoto patch\patch0004074.jpg",
+"nishimoto patch\patch0007027.jpg",
+"nishimoto patch\patch0005282.jpg",
+"nishimoto patch\patch0004516.jpg",
+"nishimoto patch\patch0002435.jpg",
+"nishimoto patch\patch0002167.jpg",
+"nishimoto patch\patch0001901.jpg",
+"nishimoto patch\patch0001037.jpg",
+"nishimoto patch\patch0002317.jpg",
+"nishimoto patch\patch0005772.jpg",
+"nishimoto patch\patch0001618.jpg",
+"nishimoto patch\patch0000480.jpg",
+"nishimoto patch\patch0003426.jpg",
+"nishimoto patch\patch0000846.jpg",
+"nishimoto patch\patch0002788.jpg",
+"nishimoto patch\patch0000632.jpg",
+"nishimoto patch\patch0004987.jpg",
+"nishimoto patch\patch0002370.jpg",
+"nishimoto patch\patch0003919.jpg",
+"nishimoto patch\patch0004528.jpg",
+"nishimoto patch\patch0004514.jpg",
+"nishimoto patch\patch0004848.jpg",
+"nishimoto patch\patch0002083.jpg",
+"nishimoto patch\patch0000591.jpg",
+"nishimoto patch\patch0004379.jpg",
+"nishimoto patch\patch0006954.jpg",
+"nishimoto patch\patch0006181.jpg",
+"nishimoto patch\patch0002075.jpg",
+"nishimoto patch\patch0004941.jpg",
+"nishimoto patch\patch0002283.jpg",
+"nishimoto patch\patch0002521.jpg",
+"nishimoto patch\patch0004091.jpg",
+"nishimoto patch\patch0006251.jpg",
+"nishimoto patch\patch0001827.jpg",
+"nishimoto patch\patch0006557.jpg",
+"nishimoto patch\patch0005099.jpg",
+"nishimoto patch\patch0000031.jpg",
+"nishimoto patch\patch0005871.jpg",
+"nishimoto patch\patch0004799.jpg",
+"nishimoto patch\patch0003880.jpg",
+"nishimoto patch\patch0002330.jpg",
+"nishimoto patch\patch0002295.jpg",
+"nishimoto patch\patch0000534.jpg",
+"nishimoto patch\patch0003160.jpg",
+"nishimoto patch\patch0004531.jpg",
+"nishimoto patch\patch0003942.jpg",
+"nishimoto patch\patch0002771.jpg",
+"nishimoto patch\patch0006441.jpg",
+"nishimoto patch\patch0002484.jpg",
+"nishimoto patch\patch0006528.jpg",
+"nishimoto patch\patch0000208.jpg",
+"nishimoto patch\patch0003038.jpg",
+"nishimoto patch\patch0004825.jpg",
+"nishimoto patch\patch0004840.jpg",
+"nishimoto patch\patch0003512.jpg",
+"nishimoto patch\patch0004214.jpg",
+"nishimoto patch\patch0005136.jpg",
+"nishimoto patch\patch0005514.jpg",
+"nishimoto patch\patch0006929.jpg",
+"nishimoto patch\patch0006898.jpg",
+"nishimoto patch\patch0005882.jpg",
+"nishimoto patch\patch0004052.jpg",
+"nishimoto patch\patch0003495.jpg",
+"nishimoto patch\patch0005867.jpg",
+"nishimoto patch\patch0004700.jpg",
+"nishimoto patch\patch0000731.jpg",
+"nishimoto patch\patch0003449.jpg",
+"nishimoto patch\patch0000132.jpg",
+"nishimoto patch\patch0003041.jpg",
+"nishimoto patch\patch0006231.jpg",
+"nishimoto patch\patch0000307.jpg",
+"nishimoto patch\patch0006490.jpg",
+"nishimoto patch\patch0001239.jpg",
+"nishimoto patch\patch0002540.jpg",
+"nishimoto patch\patch0001409.jpg",
+"nishimoto patch\patch0000656.jpg",
+"nishimoto patch\patch0002970.jpg",
+"nishimoto patch\patch0001905.jpg",
+"nishimoto patch\patch0000692.jpg",
+"nishimoto patch\patch0003422.jpg",
+"nishimoto patch\patch0001640.jpg",
+"nishimoto patch\patch0002397.jpg",
+"nishimoto patch\patch0003827.jpg",
+"nishimoto patch\patch0003757.jpg",
+"nishimoto patch\patch0002887.jpg",
+"nishimoto patch\patch0002642.jpg",
+"nishimoto patch\patch0002608.jpg",
+"nishimoto patch\patch0001923.jpg",
+"nishimoto patch\patch0001233.jpg",
+"nishimoto patch\patch0000872.jpg",
+"nishimoto patch\patch0000108.jpg",
+"nishimoto patch\patch0005156.jpg",
+"nishimoto patch\patch0003457.jpg",
+"nishimoto patch\patch0004943.jpg",
+"nishimoto patch\patch0005209.jpg",
+"nishimoto patch\patch0001841.jpg",
+"nishimoto patch\patch0001325.jpg",
+"nishimoto patch\patch0000439.jpg",
+"nishimoto patch\patch0002910.jpg",
+"nishimoto patch\patch0004802.jpg",
+"nishimoto patch\patch0006682.jpg",
+"nishimoto patch\patch0003771.jpg",
+"nishimoto patch\patch0000300.jpg",
+"nishimoto patch\patch0003979.jpg",
+"nishimoto patch\patch0001903.jpg",
+"nishimoto patch\patch0003705.jpg",
+"nishimoto patch\patch0003029.jpg",
+"nishimoto patch\patch0000801.jpg",
+"nishimoto patch\patch0002595.jpg",
+"nishimoto patch\patch0005223.jpg",
+"nishimoto patch\patch0006270.jpg",
+"nishimoto patch\patch0004729.jpg",
+"nishimoto patch\patch0006625.jpg",
+"nishimoto patch\patch0000861.jpg",
+"nishimoto patch\patch0004411.jpg",
+"nishimoto patch\patch0002640.jpg",
+"nishimoto patch\patch0003836.jpg",
+"nishimoto patch\patch0001353.jpg",
+"nishimoto patch\patch0002687.jpg",
+"nishimoto patch\patch0002320.jpg",
+"nishimoto patch\patch0002431.jpg",
+"nishimoto patch\patch0002543.jpg",
+"nishimoto patch\patch0000787.jpg",
+"nishimoto patch\patch0003416.jpg",
+"nishimoto patch\patch0005566.jpg",
+"nishimoto patch\patch0002340.jpg",
+"nishimoto patch\patch0003396.jpg",
+"nishimoto patch\patch0000804.jpg",
+"nishimoto patch\patch0006919.jpg",
+"nishimoto patch\patch0003510.jpg",
+"nishimoto patch\patch0002419.jpg",
+"nishimoto patch\patch0005876.jpg",
+"nishimoto patch\patch0002342.jpg",
+"nishimoto patch\patch0003109.jpg",
+"nishimoto patch\patch0001620.jpg",
+"nishimoto patch\patch0005246.jpg",
+"nishimoto patch\patch0001860.jpg",
+"nishimoto patch\patch0003571.jpg",
+"nishimoto patch\patch0003612.jpg",
+"nishimoto patch\patch0005938.jpg",
+"nishimoto patch\patch0006373.jpg",
+"nishimoto patch\patch0000332.jpg",
+"nishimoto patch\patch0006652.jpg",
+"nishimoto patch\patch0004297.jpg",
+"nishimoto patch\patch0000494.jpg",
+"nishimoto patch\patch0001439.jpg",
+"nishimoto patch\patch0002444.jpg",
+"nishimoto patch\patch0002898.jpg",
+"nishimoto patch\patch0005148.jpg",
+"nishimoto patch\patch0006217.jpg",
+"nishimoto patch\patch0004275.jpg",
+"nishimoto patch\patch0006487.jpg",
+"nishimoto patch\patch0005124.jpg",
+"nishimoto patch\patch0003570.jpg",
+"nishimoto patch\patch0005767.jpg",
+"nishimoto patch\patch0005535.jpg",
+"nishimoto patch\patch0000896.jpg",
+"nishimoto patch\patch0005158.jpg",
+"nishimoto patch\patch0004185.jpg",
+"nishimoto patch\patch0002696.jpg",
+"nishimoto patch\patch0005702.jpg",
+"nishimoto patch\patch0000260.jpg",
+"nishimoto patch\patch0000652.jpg",
+"nishimoto patch\patch0006423.jpg",
+"nishimoto patch\patch0002683.jpg",
+"nishimoto patch\patch0003605.jpg",
+"nishimoto patch\patch0006119.jpg",
+"nishimoto patch\patch0002303.jpg",
+"nishimoto patch\patch0004494.jpg",
+"nishimoto patch\patch0004923.jpg",
+"nishimoto patch\patch0001510.jpg",
+"nishimoto patch\patch0003759.jpg",
+"nishimoto patch\patch0003080.jpg",
+"nishimoto patch\patch0004128.jpg",
+"nishimoto patch\patch0003680.jpg",
+"nishimoto patch\patch0003506.jpg",
+"nishimoto patch\patch0001934.jpg",
+"nishimoto patch\patch0005943.jpg",
+"nishimoto patch\patch0006331.jpg",
+"nishimoto patch\patch0005449.jpg",
+"nishimoto patch\patch0006549.jpg",
+"nishimoto patch\patch0003542.jpg",
+"nishimoto patch\patch0000763.jpg",
+"nishimoto patch\patch0004392.jpg",
+"nishimoto patch\patch0001290.jpg",
+"nishimoto patch\patch0005787.jpg",
+"nishimoto patch\patch0006366.jpg",
+"nishimoto patch\patch0000699.jpg",
+"nishimoto patch\patch0002001.jpg",
+"nishimoto patch\patch0005392.jpg",
+"nishimoto patch\patch0002981.jpg",
+"nishimoto patch\patch0003323.jpg",
+"nishimoto patch\patch0000200.jpg",
+)
+  / select = noreplace
+</picture>
+
+<item PresentationOrder_practice>
+/1 = "Odd" 
+/2 = "Even" 
+/3 = "Even" 
+</item>
+
+<item PresentationOrder>
+/1 = "Odd" 
+/2 = "Odd" 
+/3 = "Even" 
+/4 = "Even" 
+/5 = "Even" 
+/6 = "Odd" 
+/7 = "Odd" 
+/8 = "Even" 
+/9 = "Even" 
+/10 = "Odd" 
+/11 = "Even" 
+/12 = "Odd" 
+/13 = "Even" 
+/14 = "Even" 
+/15 = "Odd" 
+/16 = "Odd" 
+/17 = "Odd" 
+/18 = "Odd" 
+/19 = "Even" 
+/20 = "Odd" 
+</item>
+
+<item CongOrIncong>
+/1 = "Incong" 
+/2 = "Cong" 
+/3 = "Incong" 
+/4 = "Cong" 
+/5 = "Incong" 
+/6 = "Incong" 
+/7 = "Cong" 
+/8 = "Cong" 
+/9 = "Cong" 
+/10 = "Cong" 
+/11 = "Cong" 
+/12 = "Incong" 
+/13 = "Incong" 
+/14 = "Cong" 
+/15 = "Incong" 
+/16 = "Incong" 
+/17 = "Incong" 
+/18 = "Cong" 
+/19 = "Incong" 
+/20 = "Cong" 
+</item>
+
+<item Object_Patch>
+/1 = "3"
+/2 = "5"
+/3 = "8"
+/4 = "6"
+/5 = "8"
+/6 = "7"
+/7 = "5"
+/8 = "6"
+/9 = "2"
+/10 = "5"
+/11 = "8"
+/12 = "9"
+/13 = "2"
+/14 = "8"
+/15 = "5"
+/16 = "9"
+/17 = "9"
+/18 = "7"
+/19 = "6"
+/20 = "5"
+</item>
+
+<item Image_ID>
+/1 = "112"
+/2 = "54"
+/3 = "18"
+/4 = "120"
+/5 = "118"
+/6 = "105"
+/7 = "52"
+/8 = "62"
+/9 = "140"
+/10 = "84"
+/11 = "103"
+/12 = "117"
+/13 = "5"
+/14 = "25"
+/15 = "58"
+/16 = "61"
+/17 = "78"
+/18 = "31"
+/19 = "17"
+/20 = "24"
+</item>
+
+<page intro>
+^^Welcome to our experimment!
+</page>
+<page end>
+^^This is the end of the experiment !
+^^Thank you for your coorperation !
+</page>
+<instruct>
+/ nextkey = (57)
+/ fontstyle = ("Arial", 10%, true)
+/ screencolor = (127,127,127)
+</instruct>
+<expt Throughout>
+/ preinstructions = (intro)
+/ postinstructions = (end)
+/ blocks = [1 = instruction_step;
+2 = test_odd_practice;
+3 = test_even_practice;
+4 = test_even_practice;
+5 = start_test;
+6 = start_attention;
+7 = test_odd;
+8 = test_odd;
+9 = test_even;
+10 = test_even;
+11 = test_even;
+12 = test_odd;
+13 = test_odd;
+14 = test_even;
+15 = test_even;
+16 = test_odd;
+17 = test_even;
+18 = test_odd;
+19 = test_even;
+20 = test_even;
+21 = test_odd;
+22 = test_odd;
+23 = test_odd;
+24 = test_odd;
+25 = test_even;
+26 = test_odd;
+]
+</expt>
+

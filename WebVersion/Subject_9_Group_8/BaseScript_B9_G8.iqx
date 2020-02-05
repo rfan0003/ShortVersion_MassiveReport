@@ -1,0 +1,756 @@
+<item image_presentation_Congruent>
+/1 = "SquareIncongruent_122.jpg"
+/2 = "SquareCongruent_030.jpg"
+/3 = "SquareCongruent_109.jpg"
+/4 = "SquareIncongruent_057.jpg"
+/5 = "SquareIncongruent_083.jpg"
+/6 = "SquareIncongruent_127.jpg"
+/7 = "SquareCongruent_015.jpg"
+/8 = "SquareCongruent_058.jpg"
+/9 = "SquareCongruent_003.jpg"
+/10 = "SquareIncongruent_045.jpg"
+/11 = "SquareIncongruent_011.jpg"
+/12 = "SquareCongruent_110.jpg"
+/13 = "SquareIncongruent_012.jpg"
+/14 = "SquareCongruent_039.jpg"
+</item>
+
+<item image_presentation_Congruent_practice>
+/1 = "SquareIncongruent_115.jpg"
+/2 = "SquareCongruent_023.jpg"
+/3 = "SquareCongruent_068.jpg"
+</item>
+
+<item Masking_item_1>
+/1 = "mask_029.jpg"
+/2 = "mask_037.jpg"
+/3 = "mask_091.jpg"
+/4 = "mask_057.jpg"
+</item>
+
+<item Masking_item_2>
+/1 = "mask_055.jpg"
+/2 = "mask_137.jpg"
+/3 = "mask_026.jpg"
+/4 = "mask_122.jpg"
+</item>
+
+<item Masking_item_3>
+/1 = "mask_098.jpg"
+/2 = "mask_074.jpg"
+/3 = "mask_047.jpg"
+/4 = "mask_051.jpg"
+</item>
+
+<item Masking_item_4>
+/1 = "mask_118.jpg"
+/2 = "mask_067.jpg"
+/3 = "mask_039.jpg"
+/4 = "mask_115.jpg"
+</item>
+
+<item Masking_item_5>
+/1 = "mask_101.jpg"
+/2 = "mask_034.jpg"
+/3 = "mask_127.jpg"
+/4 = "mask_043.jpg"
+</item>
+
+<item Masking_patch_item_1>
+/1 = "maskCrop_029.jpg"
+/2 = "maskCrop_037.jpg"
+/3 = "maskCrop_091.jpg"
+/4 = "maskCrop_057.jpg"
+</item>
+
+<item Masking_patch_item_2>
+/1 = "maskCrop_055.jpg"
+/2 = "maskCrop_137.jpg"
+/3 = "maskCrop_026.jpg"
+/4 = "maskCrop_122.jpg"
+</item>
+
+<item Masking_patch_item_3>
+/1 = "maskCrop_098.jpg"
+/2 = "maskCrop_074.jpg"
+/3 = "maskCrop_047.jpg"
+/4 = "maskCrop_051.jpg"
+</item>
+
+<item Masking_patch_item_4>
+/1 = "maskCrop_118.jpg"
+/2 = "maskCrop_067.jpg"
+/3 = "maskCrop_039.jpg"
+/4 = "maskCrop_115.jpg"
+</item>
+
+<item Masking_patch_item_5>
+/1 = "maskCrop_101.jpg"
+/2 = "maskCrop_034.jpg"
+/3 = "maskCrop_127.jpg"
+/4 = "maskCrop_043.jpg"
+</item>
+
+<item CP_patch_practice>
+/1 = "cong_115_5_p.jpg"
+/2 = "incong_23_9_p.jpg"
+/3 = "incong_68_4_p.jpg"
+</item>
+
+<item CP_patch>
+/1 = "cong_122_5_p.jpg"
+/2 = "incong_30_2_p.jpg"
+/3 = "incong_109_7_p.jpg"
+/4 = "cong_57_1_p.jpg"
+/5 = "cong_83_1_p.jpg"
+/6 = "cong_127_8_p.jpg"
+/7 = "incong_15_7_p.jpg"
+/8 = "incong_58_5_p.jpg"
+/9 = "incong_3_8_p.jpg"
+/10 = "cong_45_1_p.jpg"
+/11 = "cong_11_8_p.jpg"
+/12 = "incong_110_8_p.jpg"
+/13 = "cong_12_3_p.jpg"
+/14 = "incong_39_5_p.jpg"
+</item>
+
+<item CP_x_coordinates_practice>
+/1 = "50%"
+/2 = "61.3%"
+/3 = "38.7%"
+</item>
+
+<item CP_y_coordinates_practice>
+/1 = "50%"
+/2 = "70%"
+/3 = "50%"
+</item>
+
+<item CP_x_coordinates>
+/1 = "50%"
+/2 = "50%"
+/3 = "38.7%"
+/4 = "38.7%"
+/5 = "38.7%"
+/6 = "50%"
+/7 = "38.7%"
+/8 = "50%"
+/9 = "50%"
+/10 = "38.7%"
+/11 = "50%"
+/12 = "50%"
+/13 = "61.3%"
+/14 = "50%"
+</item>
+
+<item CP_y_coordinates>
+/1 = "50%"
+/2 = "30%"
+/3 = "70%"
+/4 = "30%"
+/5 = "30%"
+/6 = "70%"
+/7 = "70%"
+/8 = "50%"
+/9 = "70%"
+/10 = "30%"
+/11 = "70%"
+/12 = "70%"
+/13 = "30%"
+/14 = "50%"
+</item>
+
+<picture Patch_locate_1_practice>
+  / size = (20%,20%)
+  / position = (38.7%,30%)
+  /items = ("incong_115_1_a.jpg",
+"cong_23_1_a.jpg",
+)
+  /select = sequence
+</picture>
+<picture Patch_locate_1>
+  / size = (20%,20%)
+  / position = (38.7%,30%)
+  /items = ("incong_122_1_a.jpg",
+"cong_109_1_a.jpg",
+"incong_57_1_p.jpg",
+"incong_83_1_p.jpg",
+"cong_15_1_a.jpg",
+"cong_58_1_a.jpg",
+"incong_45_1_p.jpg",
+"incong_12_1_a.jpg",
+"cong_39_1_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_3_practice>
+  / size = (20%,20%)
+  / position = (61.3%,30%)
+  /items = ("incong_115_3_a.jpg",
+"cong_23_3_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_3>
+  / size = (20%,20%)
+  / position = (61.3%,30%)
+  /items = ("incong_122_3_a.jpg",
+"cong_109_3_a.jpg",
+"incong_57_3_a.jpg",
+"incong_83_3_a.jpg",
+"cong_15_3_a.jpg",
+"cong_58_3_a.jpg",
+"incong_45_3_a.jpg",
+"incong_12_3_p.jpg",
+"cong_39_3_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_5_practice>
+  / size = (20%,20%)
+  / position = (50%,50%)
+  /items = ("incong_115_5_p.jpg",
+"cong_23_5_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_5>
+  / size = (20%,20%)
+  / position = (50%,50%)
+  /items = ("incong_122_5_p.jpg",
+"cong_109_5_a.jpg",
+"incong_57_5_a.jpg",
+"incong_83_5_a.jpg",
+"cong_15_5_a.jpg",
+"cong_58_5_p.jpg",
+"incong_45_5_a.jpg",
+"incong_12_5_a.jpg",
+"cong_39_5_p.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_7_practice>
+  / size = (20%,20%)
+  / position = (38.7%,70%)
+  /items = ("incong_115_7_a.jpg",
+"cong_23_7_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_7>
+  / size = (20%,20%)
+  / position = (38.7%,70%)
+  /items = ("incong_122_7_a.jpg",
+"cong_109_7_p.jpg",
+"incong_57_7_a.jpg",
+"incong_83_7_a.jpg",
+"cong_15_7_p.jpg",
+"cong_58_7_a.jpg",
+"incong_45_7_a.jpg",
+"incong_12_7_a.jpg",
+"cong_39_7_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_9_practice>
+  / size = (20%,20%)
+  / position = (61.3%,70%)
+  /items = ("incong_115_9_a.jpg",
+"cong_23_9_p.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_9>
+  / size = (20%,20%)
+  / position = (61.3%,70%)
+  /items = ("incong_122_9_a.jpg",
+"cong_109_9_a.jpg",
+"incong_57_9_a.jpg",
+"incong_83_9_a.jpg",
+"cong_15_9_a.jpg",
+"cong_58_9_a.jpg",
+"incong_45_9_a.jpg",
+"incong_12_9_a.jpg",
+"cong_39_9_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_2_practice>
+  / size = (20%,20%)
+  / position = (50%,30%)
+  /items = ("cong_68_2_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_2>
+  / size = (20%,20%)
+  / position = (50%,30%)
+  /items = ("cong_30_2_p.jpg",
+"incong_127_2_a.jpg",
+"cong_3_2_a.jpg",
+"incong_11_2_a.jpg",
+"cong_110_2_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_4_practice>
+  / size = (20%,20%)
+  / position = (38.7%,50%)
+  /items = ("cong_68_4_p.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_4>
+  / size = (20%,20%)
+  / position = (38.7%,50%)
+  /items = ("cong_30_4_a.jpg",
+"incong_127_4_a.jpg",
+"cong_3_4_a.jpg",
+"incong_11_4_a.jpg",
+"cong_110_4_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_6_practice>
+  / size = (20%,20%)
+  / position = (61.3%,50%)
+  /items = ("cong_68_6_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_6>
+  / size = (20%,20%)
+  / position = (61.3%,50%)
+  /items = ("cong_30_6_a.jpg",
+"incong_127_6_a.jpg",
+"cong_3_6_a.jpg",
+"incong_11_6_a.jpg",
+"cong_110_6_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_8_practice>
+  / size = (20%,20%)
+  / position = (50%,70%)
+  /items = ("cong_68_8_a.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_locate_8>
+  / size = (20%,20%)
+  / position = (50%,70%)
+  /items = ("cong_30_8_a.jpg",
+"incong_127_8_p.jpg",
+"cong_3_8_p.jpg",
+"incong_11_8_p.jpg",
+"cong_110_8_p.jpg",
+)
+/select = sequence
+</picture>
+
+<picture Patch_random_practice>
+  / size = (20%,20%)
+  / hposition = values.x_coordinate
+  / vposition = values.y_coordinate
+  / items = ("patch0002402.jpg",
+"patch0002017.jpg",
+"patch0001368.jpg",
+"patch0005247.jpg",
+"patch0001472.jpg",
+"patch0003949.jpg",
+"patch0001581.jpg",
+"patch0005533.jpg",
+"patch0002300.jpg",
+"patch0000920.jpg",
+"patch0004763.jpg",
+"patch0006771.jpg",
+"patch0006544.jpg",
+"patch0003469.jpg",
+"patch0002610.jpg",
+"patch0006656.jpg",
+"patch0002491.jpg",
+"patch0004442.jpg",
+"patch0000728.jpg",
+"patch0004213.jpg",
+"patch0001980.jpg",
+"patch0003474.jpg",
+"patch0002002.jpg",
+"patch0005150.jpg",
+"patch0001763.jpg",
+"patch0005772.jpg",
+"patch0001113.jpg",
+"patch0003345.jpg",
+"patch0001033.jpg",
+"patch0004313.jpg",
+"patch0005483.jpg",
+"patch0004801.jpg",
+"patch0001964.jpg",
+"patch0004309.jpg",
+"patch0006812.jpg",
+"patch0001929.jpg",
+"patch0002949.jpg",
+"patch0005674.jpg",
+"patch0001381.jpg",
+"patch0003050.jpg",
+"patch0002602.jpg",
+"patch0001851.jpg",
+"patch0000114.jpg",
+"patch0003787.jpg",
+"patch0001374.jpg",
+"patch0003544.jpg",
+)
+  / select = noreplace
+</picture>
+
+<picture Patch_random>
+  / size = (20%,20%)
+  / hposition = values.x_coordinate
+  / vposition = values.y_coordinate
+  / items = ("patch0003604.jpg",
+"patch0005452.jpg",
+"patch0002089.jpg",
+"patch0001874.jpg",
+"patch0004350.jpg",
+"patch0006128.jpg",
+"patch0000996.jpg",
+"patch0000534.jpg",
+"patch0006025.jpg",
+"patch0000036.jpg",
+"patch0004059.jpg",
+"patch0006378.jpg",
+"patch0001331.jpg",
+"patch0004572.jpg",
+"patch0000616.jpg",
+"patch0006160.jpg",
+"patch0002326.jpg",
+"patch0003216.jpg",
+"patch0003345.jpg",
+"patch0001198.jpg",
+"patch0000997.jpg",
+"patch0005437.jpg",
+"patch0000687.jpg",
+"patch0005198.jpg",
+"patch0004415.jpg",
+"patch0004051.jpg",
+"patch0001440.jpg",
+"patch0002857.jpg",
+"patch0006541.jpg",
+"patch0001785.jpg",
+"patch0005310.jpg",
+"patch0006162.jpg",
+"patch0005985.jpg",
+"patch0006614.jpg",
+"patch0001700.jpg",
+"patch0000866.jpg",
+"patch0003593.jpg",
+"patch0002122.jpg",
+"patch0000254.jpg",
+"patch0005917.jpg",
+"patch0001899.jpg",
+"patch0005041.jpg",
+"patch0000757.jpg",
+"patch0005113.jpg",
+"patch0004491.jpg",
+"patch0006667.jpg",
+"patch0005972.jpg",
+"patch0002963.jpg",
+"patch0003344.jpg",
+"patch0002292.jpg",
+"patch0005579.jpg",
+"patch0004322.jpg",
+"patch0004594.jpg",
+"patch0005871.jpg",
+"patch0000983.jpg",
+"patch0002140.jpg",
+"patch0004500.jpg",
+"patch0000708.jpg",
+"patch0006689.jpg",
+"patch0006036.jpg",
+"patch0003918.jpg",
+"patch0004295.jpg",
+"patch0002849.jpg",
+"patch0001096.jpg",
+"patch0007041.jpg",
+"patch0000303.jpg",
+"patch0005907.jpg",
+"patch0002106.jpg",
+"patch0004021.jpg",
+"patch0001629.jpg",
+"patch0005086.jpg",
+"patch0005018.jpg",
+"patch0004815.jpg",
+"patch0001029.jpg",
+"patch0005071.jpg",
+"patch0007002.jpg",
+"patch0006304.jpg",
+"patch0003728.jpg",
+"patch0001728.jpg",
+"patch0001668.jpg",
+"patch0005297.jpg",
+"patch0002128.jpg",
+"patch0006123.jpg",
+"patch0000752.jpg",
+"patch0000981.jpg",
+"patch0003350.jpg",
+"patch0003576.jpg",
+"patch0006496.jpg",
+"patch0002961.jpg",
+"patch0000592.jpg",
+"patch0000703.jpg",
+"patch0000420.jpg",
+"patch0003437.jpg",
+"patch0004045.jpg",
+"patch0000845.jpg",
+"patch0001736.jpg",
+"patch0005932.jpg",
+"patch0000572.jpg",
+"patch0004387.jpg",
+"patch0005697.jpg",
+"patch0005759.jpg",
+"patch0006155.jpg",
+"patch0005516.jpg",
+"patch0001714.jpg",
+"patch0004167.jpg",
+"patch0000357.jpg",
+"patch0004472.jpg",
+"patch0003026.jpg",
+"patch0003179.jpg",
+"patch0003781.jpg",
+"patch0002204.jpg",
+"patch0004829.jpg",
+"patch0005903.jpg",
+"patch0006631.jpg",
+"patch0001762.jpg",
+"patch0004025.jpg",
+"patch0001445.jpg",
+"patch0003872.jpg",
+"patch0004395.jpg",
+"patch0003771.jpg",
+"patch0003642.jpg",
+"patch0000740.jpg",
+"patch0005758.jpg",
+"patch0002012.jpg",
+"patch0006658.jpg",
+"patch0005106.jpg",
+"patch0004258.jpg",
+"patch0006273.jpg",
+"patch0004798.jpg",
+"patch0006143.jpg",
+"patch0004899.jpg",
+"patch0003925.jpg",
+"patch0000795.jpg",
+"patch0002040.jpg",
+"patch0005969.jpg",
+"patch0006002.jpg",
+"patch0004964.jpg",
+"patch0004473.jpg",
+"patch0001824.jpg",
+"patch0000822.jpg",
+"patch0005499.jpg",
+"patch0007034.jpg",
+"patch0004590.jpg",
+"patch0002693.jpg",
+"patch0006450.jpg",
+"patch0001353.jpg",
+"patch0004639.jpg",
+"patch0001932.jpg",
+"patch0003413.jpg",
+"patch0005898.jpg",
+"patch0002187.jpg",
+"patch0004711.jpg",
+"patch0001312.jpg",
+"patch0006111.jpg",
+"patch0002718.jpg",
+"patch0006872.jpg",
+"patch0005206.jpg",
+"patch0000643.jpg",
+"patch0003245.jpg",
+"patch0003891.jpg",
+"patch0004276.jpg",
+"patch0006405.jpg",
+"patch0005417.jpg",
+"patch0001235.jpg",
+"patch0002524.jpg",
+"patch0005011.jpg",
+"patch0001924.jpg",
+"patch0000745.jpg",
+"patch0000758.jpg",
+"patch0002526.jpg",
+"patch0000888.jpg",
+"patch0000189.jpg",
+"patch0005538.jpg",
+"patch0004901.jpg",
+"patch0001376.jpg",
+"patch0006970.jpg",
+"patch0002263.jpg",
+"patch0006222.jpg",
+"patch0003829.jpg",
+"patch0002885.jpg",
+"patch0005607.jpg",
+"patch0002858.jpg",
+"patch0003145.jpg",
+"patch0000329.jpg",
+"patch0003977.jpg",
+"patch0000593.jpg",
+"patch0003960.jpg",
+"patch0002094.jpg",
+"patch0000167.jpg",
+"patch0005763.jpg",
+"patch0004240.jpg",
+"patch0003998.jpg",
+"patch0000239.jpg",
+"patch0004591.jpg",
+"patch0004474.jpg",
+"patch0000987.jpg",
+"patch0004738.jpg",
+"patch0005833.jpg",
+"patch0001616.jpg",
+"patch0003403.jpg",
+"patch0004335.jpg",
+"patch0005394.jpg",
+"patch0001981.jpg",
+"patch0006917.jpg",
+"patch0000009.jpg",
+"patch0001801.jpg",
+"patch0005403.jpg",
+"patch0000717.jpg",
+"patch0000663.jpg",
+"patch0000123.jpg",
+"patch0006232.jpg",
+"patch0005303.jpg",
+"patch0001152.jpg",
+"patch0006818.jpg",
+"patch0001124.jpg",
+)
+  / select = noreplace
+</picture>
+
+<item PresentationOrder_practice>
+/1 = "Odd" 
+/2 = "Odd" 
+/3 = "Even" 
+</item>
+
+<item PresentationOrder>
+/1 = "Odd" 
+/2 = "Even" 
+/3 = "Odd" 
+/4 = "Odd" 
+/5 = "Odd" 
+/6 = "Even" 
+/7 = "Odd" 
+/8 = "Odd" 
+/9 = "Even" 
+/10 = "Odd" 
+/11 = "Even" 
+/12 = "Even" 
+/13 = "Odd" 
+/14 = "Odd" 
+</item>
+
+<item CongOrIncong>
+/1 = "Incong" 
+/2 = "Cong" 
+/3 = "Cong" 
+/4 = "Incong" 
+/5 = "Incong" 
+/6 = "Incong" 
+/7 = "Cong" 
+/8 = "Cong" 
+/9 = "Cong" 
+/10 = "Incong" 
+/11 = "Incong" 
+/12 = "Cong" 
+/13 = "Incong" 
+/14 = "Cong" 
+</item>
+
+<item Object_Patch>
+/1 = "5"
+/2 = "2"
+/3 = "7"
+/4 = "1"
+/5 = "1"
+/6 = "8"
+/7 = "7"
+/8 = "5"
+/9 = "8"
+/10 = "1"
+/11 = "8"
+/12 = "8"
+/13 = "3"
+/14 = "5"
+</item>
+
+<item Image_ID>
+/1 = "122"
+/2 = "30"
+/3 = "109"
+/4 = "57"
+/5 = "83"
+/6 = "127"
+/7 = "15"
+/8 = "58"
+/9 = "3"
+/10 = "45"
+/11 = "11"
+/12 = "110"
+/13 = "12"
+/14 = "39"
+</item>
+
+<page intro>
+^^Welcome to our experiment!
+</page>
+<page end>
+^^This is the end of the experiment !
+^^Thank you for your coorperation !
+</page>
+<instruct>
+/ nextkey = (57)
+/ fontstyle = ("Arial", 10%, true)
+/ screencolor = (127,127,127)
+</instruct>
+<expt Throughout>
+/ preinstructions = (intro)
+/ postinstructions = (end)
+/ blocks = [1 = consent;
+2 = instruction_step;
+3 = test_odd_practice;
+4 = test_odd_practice;
+5 = test_even_practice;
+6 = start_test;
+7 = start_attention;
+8 = test_odd;
+9 = test_even;
+10 = test_odd;
+11 = test_odd;
+12 = test_odd;
+13 = test_even;
+14 = test_odd;
+15 = test_odd;
+16 = test_even;
+17 = test_odd;
+18 = test_even;
+19 = test_even;
+20 = test_odd;
+21 = test_odd;
+]
+</expt>
+
