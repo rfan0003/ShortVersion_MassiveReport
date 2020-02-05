@@ -80,7 +80,7 @@ For "mycounter_even": 1,2,3,4 => patches on position 2,4,6,8; 5 => The patch wit
 
 <counter mycounter_hposition_random_practice>
 / select = replace
-/ items = (38.7%,50%,61.3%)
+/ items = (36.7%,50%,63.3%)
 </counter>
 <counter mycounter_vposition_random_practice>
 / select = replace
@@ -127,41 +127,52 @@ Devided into 2 parts: Odd and Even situations
 	}
 	
 	
-	trial.Patch_present_odd_practice.clearstimulusframes();
-	
 	if(counter.mycounter_odd_practice.selectedvalue == 1){
-		trial.Patch_present_odd_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_1_practice, 2);
-		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 3);
-		values.x_coordinate = "38.7%";
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_1, 1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.cross,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 1);
+		
+		values.x_coordinate = "36.7%";
 		values.y_coordinate = "30%";
 		}
 	else if (counter.mycounter_odd_practice.selectedvalue == 2){
-		trial.Patch_present_odd_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_3_practice, 2);
-		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 3);
-		values.x_coordinate = "61.3%";
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_3, 1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.cross,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 1);
+		
+		values.x_coordinate = "63.3%";
 		values.y_coordinate = "30%";
 		}
 	else if (counter.mycounter_odd_practice.selectedvalue == 3){
-		trial.Patch_present_odd_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_5_practice, 2);
-		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 3);
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_5, 1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 1);
+		
 		values.x_coordinate = "50%";
 		values.y_coordinate = "50%";
 		}
 	else if (counter.mycounter_odd_practice.selectedvalue == 4){
-		trial.Patch_present_odd_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_7_practice, 2);
-		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 3);
-		values.x_coordinate = "38.7%";
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_7, 1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.cross,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 1);
+		
+		values.x_coordinate = "36.7%";
 		values.y_coordinate = "70%";
 		}
 	else if (counter.mycounter_odd_practice.selectedvalue == 5){
-		trial.Patch_present_odd_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_9_practice, 2);
-		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 3);
-		values.x_coordinate = "61.3%";
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(picture.Patch_locate_9, 1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.cross,1);
+		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 1);
+		values.x_coordinate = "63.3%";
 		values.y_coordinate = "70%";
 		}
 	else{
@@ -172,11 +183,15 @@ Devided into 2 parts: Odd and Even situations
 		trial.Patch_present_odd_practice.insertstimulusframe(text.Practice_notice, 3);
 	}
 ]
-	/ stimulusframes = [1 = cross]
+	/ stimulusframes = []
 	/ timeout = values.time_out_practice
 	/ recorddata = false
 	/ branch = [
 		trial.mask_patch_practice
+]
+/ ontrialend = [
+	trial.Patch_present_odd_practice.clearstimulusframes();
+	picture.Present_image_patch_step.clearitems();
 ]
 </trial>
 
@@ -202,34 +217,41 @@ Devided into 2 parts: Odd and Even situations
 		values.time_out_practice = 133;
 	}
 	
-	trial.Patch_present_even_practice.clearstimulusframes();
 	if(counter.mycounter_even_practice.selectedvalue == 1){
-		trial.Patch_present_even_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_even_practice.insertstimulusframe(picture.Patch_locate_2_practice, 2);
-		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 3);
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_even_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_even_practice.insertstimulusframe(picture.Patch_locate_2, 1);
+		trial.Patch_present_even_practice.insertstimulusframe(text.cross,1);
+		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 1);
 		values.x_coordinate = "50%";
 		values.y_coordinate = "30%";
 	}
 	else if (counter.mycounter_even_practice.selectedvalue == 2){
-		trial.Patch_present_even_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_even_practice.insertstimulusframe(picture.Patch_locate_4_practice, 2);
-		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 3);
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_even_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_even_practice.insertstimulusframe(picture.Patch_locate_4, 1);
+		trial.Patch_present_even_practice.insertstimulusframe(text.cross,1);
+		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 1);
 		
-		values.x_coordinate = "38.7%";
+		values.x_coordinate = "36.7%";
 		values.y_coordinate = "50%";
 	}
 	else if (counter.mycounter_even_practice.selectedvalue == 3){
-		trial.Patch_present_even_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_even_practice.insertstimulusframe(picture.Patch_locate_6_practice, 2);
-		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 3);
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_even_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_even_practice.insertstimulusframe(picture.Patch_locate_6, 1);
+		trial.Patch_present_even_practice.insertstimulusframe(text.cross,1);
+		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 1);
 		
-		values.x_coordinate = "61.3%";
+		values.x_coordinate = "63.3%";
 		values.y_coordinate = "50%";
 	}
 	else if (counter.mycounter_even_practice.selectedvalue == 4){
-		trial.Patch_present_even_practice.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_even_practice.insertstimulusframe(picture.Patch_locate_8_practice, 2);
-		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 3);
+		picture.Present_image_patch_step.insertitem(picture.Congruent_practice.item(values.Index_practice),1);
+		trial.Patch_present_even_practice.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_even_practice.insertstimulusframe(picture.Patch_locate_8, 1);
+		trial.Patch_present_even_practice.insertstimulusframe(text.cross,1);
+		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 1);
 		
 		values.x_coordinate = "50%";
 		values.y_coordinate = "70%";
@@ -242,9 +264,13 @@ Devided into 2 parts: Odd and Even situations
 		trial.Patch_present_even_practice.insertstimulusframe(text.Practice_notice, 3);
 	}
 ]
-	/ stimulusframes = [1 = cross,Practice_notice]
+	/ stimulusframes = []
 	/ timeout = values.time_out_practice
 	/ recorddata = false
+	/ ontrialend = [
+	trial.Patch_present_even_practice.clearstimulusframes();
+	picture.Present_image_patch_step.clearitems();
+]
 	/ branch = [
 		trial.mask_patch_practice
 ]
@@ -358,7 +384,7 @@ The structure will be same
 
 <counter mycounter_hposition_random>
 / select = replace
-/ items = (38.7%,50%,61.3%)
+/ items = (36.7%,50%,63.3%)
 </counter>
 <counter mycounter_vposition_random>
 / select = replace
@@ -384,13 +410,13 @@ The structure will be same
 	values.response = 0;
 	values.p_confidence = 0;
 	
-	trial.Patch_present_odd.clearstimulusframes();
-	
 	if(counter.mycounter_odd.selectedvalue == 1){
-		trial.Patch_present_odd.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_1, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_1, 1);
+		trial.Patch_present_odd.insertstimulusframe(text.cross,1);
 		values.patch_ID += 1;
-		values.x_coordinate = "38.7%";
+		values.x_coordinate = "36.7%";
 		values.y_coordinate = "30%";
 		if(item.CongOrIncong.item(values.Index) == "Cong"){
 			values.Patch_Source = 2;
@@ -407,10 +433,12 @@ The structure will be same
 		values.Patch_Position = 1;
 	}
 	else if (counter.mycounter_odd.selectedvalue == 2){
-		trial.Patch_present_odd.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_3, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_3, 1);
+		trial.Patch_present_odd.insertstimulusframe(text.cross,1);
 		values.patch_ID += 1;
-		values.x_coordinate = "61.3%";
+		values.x_coordinate = "63.3%";
 		values.y_coordinate = "30%";
 		if(item.CongOrIncong.item(values.Index) == "Cong"){
 			values.Patch_Source = 2;
@@ -427,8 +455,9 @@ The structure will be same
 		values.Patch_Position = 3;
 	}
 	else if (counter.mycounter_odd.selectedvalue == 3){
-		trial.Patch_present_odd.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_5, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_5, 1);
 		values.patch_ID += 1;
 		values.x_coordinate = "50%";
 		values.y_coordinate = "50%";
@@ -447,10 +476,12 @@ The structure will be same
 		values.Patch_Position = 5;
 	}
 	else if (counter.mycounter_odd.selectedvalue == 4){
-		trial.Patch_present_odd.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_7, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_7, 1);
+		trial.Patch_present_odd.insertstimulusframe(text.cross,1);
 		values.patch_ID += 1;
-		values.x_coordinate = "38.7%";
+		values.x_coordinate = "36.7%";
 		values.y_coordinate = "70%";
 		if(item.CongOrIncong.item(values.Index) == "Cong"){
 			values.Patch_Source = 2;
@@ -467,10 +498,12 @@ The structure will be same
 		values.Patch_Position = 7;
 	}
 	else if (counter.mycounter_odd.selectedvalue == 5){
-		trial.Patch_present_odd.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_9, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_odd.insertstimulusframe(picture.Patch_locate_9, 1);
+		trial.Patch_present_odd.insertstimulusframe(text.cross,1);
 		values.patch_ID += 1;
-		values.x_coordinate = "61.3%";
+		values.x_coordinate = "63.3%";
 		values.y_coordinate = "70%";
 		if(item.CongOrIncong.item(values.Index) == "Cong"){
 			values.Patch_Source = 2;
@@ -500,23 +533,23 @@ The structure will be same
 		
 		values.Exist_Object = 1;
 		
-		if(item.CP_x_coordinates.item(values.Index) == "38.7%" && item.CP_y_coordinates.item(values.Index) == "30%"){
+		if(item.CP_x_coordinates.item(values.Index) == "36.7%" && item.CP_y_coordinates.item(values.Index) == "30%"){
 			values.Patch_Position = 1;
 		}else if(item.CP_x_coordinates.item(values.Index) == "50%" && item.CP_y_coordinates.item(values.Index) == "30%"){
 			values.Patch_Position = 2;
-		}else if(item.CP_x_coordinates.item(values.Index) == "61.3%" && item.CP_y_coordinates.item(values.Index) == "30%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "63.3%" && item.CP_y_coordinates.item(values.Index) == "30%"){
 			values.Patch_Position = 3;
-		}else if(item.CP_x_coordinates.item(values.Index) == "38.7%" && item.CP_y_coordinates.item(values.Index) == "50%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "36.7%" && item.CP_y_coordinates.item(values.Index) == "50%"){
 			values.Patch_Position = 4;
 		}else if(item.CP_x_coordinates.item(values.Index) == "50%" && item.CP_y_coordinates.item(values.Index) == "50%"){
 			values.Patch_Position = 5;
-		}else if(item.CP_x_coordinates.item(values.Index) == "61.3%" && item.CP_y_coordinates.item(values.Index) == "50%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "63.3%" && item.CP_y_coordinates.item(values.Index) == "50%"){
 			values.Patch_Position = 6;
-		}else if(item.CP_x_coordinates.item(values.Index) == "38.7%" && item.CP_y_coordinates.item(values.Index) == "70%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "36.7%" && item.CP_y_coordinates.item(values.Index) == "70%"){
 			values.Patch_Position = 7;
 		}else if(item.CP_x_coordinates.item(values.Index) == "50%" && item.CP_y_coordinates.item(values.Index) == "70%"){
 			values.Patch_Position = 8;
-		}else if(item.CP_x_coordinates.item(values.Index) == "61.3%" && item.CP_y_coordinates.item(values.Index) == "70%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "63.3%" && item.CP_y_coordinates.item(values.Index) == "70%"){
 			values.Patch_Position = 9;
 		}
 	}
@@ -529,30 +562,34 @@ The structure will be same
 		values.Patch_Source = 1;
 		values.Exist_Object = 0;
 		
-		if(values.x_coordinate == 38.7% && values.y_coordinate == 30%){
+		if(values.x_coordinate == 36.7% && values.y_coordinate == 30%){
 			values.Patch_Position = 1;
 		}else if(values.x_coordinate == 50% && values.y_coordinate == 30%){
 			values.Patch_Position = 2;
-		}else if(values.x_coordinate == 61.3% && values.y_coordinate == 30%){
+		}else if(values.x_coordinate == 63.3% && values.y_coordinate == 30%){
 			values.Patch_Position = 3;
-		}else if(values.x_coordinate == 38.7% && values.y_coordinate == 50%){
+		}else if(values.x_coordinate == 36.7% && values.y_coordinate == 50%){
 			values.Patch_Position = 4;
 		}else if(values.x_coordinate == 50% && values.y_coordinate == 50%){
 			values.Patch_Position = 5;
-		}else if(values.x_coordinate == 61.3% && values.y_coordinate == 50%){
+		}else if(values.x_coordinate == 63.3% && values.y_coordinate == 50%){
 			values.Patch_Position = 6;
-		}else if(values.x_coordinate == 38.7% && values.y_coordinate == 70%){
+		}else if(values.x_coordinate == 36.7% && values.y_coordinate == 70%){
 			values.Patch_Position = 7;
 		}else if(values.x_coordinate == 50% && values.y_coordinate == 70%){
 			values.Patch_Position = 8;
-		}else if(values.x_coordinate == 61.3% && values.y_coordinate == 70%){
+		}else if(values.x_coordinate == 63.3% && values.y_coordinate == 70%){
 			values.Patch_Position = 9;
 		}
 	}
 ]
-	/ stimulusframes = [1 = cross]
+	/ stimulusframes = []
 	/ timeout = 133
 	/ recorddata = false
+	/ ontrialend = [
+	trial.Patch_present_odd.clearstimulusframes();
+	picture.Present_image_patch_step.clearitems();
+]
 	/ branch = [
 		trial.mask_patch
 ]
@@ -578,10 +615,11 @@ The structure will be same
 	/ ontrialbegin = [
 	values.response = 0;
 	values.p_confidence = 0;
-	trial.Patch_present_even.clearstimulusframes();
 	if(counter.mycounter_even.selectedvalue == 1){
-		trial.Patch_present_even.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_even.insertstimulusframe(picture.Patch_locate_2, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_even.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_even.insertstimulusframe(picture.Patch_locate_2, 1);
+		trial.Patch_present_even.insertstimulusframe(text.cross,1);
 		values.patch_ID += 1;
 		values.x_coordinate = "50%";
 		values.y_coordinate = "30%";
@@ -600,10 +638,12 @@ The structure will be same
 		values.Patch_Position = 2;
 	}
 	else if (counter.mycounter_even.selectedvalue == 2){
-		trial.Patch_present_even.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_even.insertstimulusframe(picture.Patch_locate_4, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_even.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_even.insertstimulusframe(picture.Patch_locate_4, 1);
+		trial.Patch_present_even.insertstimulusframe(text.cross,1);
 		values.patch_ID += 1;
-		values.x_coordinate = "38.7%";
+		values.x_coordinate = "36.7%";
 		values.y_coordinate = "50%";
 		if(item.CongOrIncong.item(values.Index) == "Cong"){
 			values.Patch_Source = 2;
@@ -620,10 +660,12 @@ The structure will be same
 		values.Patch_Position = 4;
 	}
 	else if (counter.mycounter_even.selectedvalue == 3){
-		trial.Patch_present_even.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_even.insertstimulusframe(picture.Patch_locate_6, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_even.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_even.insertstimulusframe(picture.Patch_locate_6, 1);
+		trial.Patch_present_even.insertstimulusframe(text.cross,1);
 		values.patch_ID += 1;
-		values.x_coordinate = "61.3%";
+		values.x_coordinate = "63.3%";
 		values.y_coordinate = "50%";
 		if(item.CongOrIncong.item(values.Index) == "Cong"){
 			values.Patch_Source = 2;
@@ -640,8 +682,10 @@ The structure will be same
 		values.Patch_Position = 6;
 	}
 	else if (counter.mycounter_even.selectedvalue == 4){
-		trial.Patch_present_even.insertstimulusframe(text.cross, 1);
-		trial.Patch_present_even.insertstimulusframe(picture.Patch_locate_8, 2);
+		picture.Present_image_patch_step.insertitem(picture.Congruent.item(values.Index),1);
+		trial.Patch_present_even.insertstimulusframe(picture.Present_image_patch_step,1);
+		trial.Patch_present_even.insertstimulusframe(picture.Patch_locate_8, 1);
+		trial.Patch_present_even.insertstimulusframe(text.cross,1);
 		values.patch_ID += 1;
 		values.x_coordinate = "50%";
 		values.y_coordinate = "70%";
@@ -673,23 +717,23 @@ The structure will be same
 		
 		values.Exist_Object = 1;
 		
-		if(item.CP_x_coordinates.item(values.Index) == "38.7%" && item.CP_y_coordinates.item(values.Index) == "30%"){
+		if(item.CP_x_coordinates.item(values.Index) == "36.7%" && item.CP_y_coordinates.item(values.Index) == "30%"){
 			values.Patch_Position = 1;
 		}else if(item.CP_x_coordinates.item(values.Index) == "50%" && item.CP_y_coordinates.item(values.Index) == "30%"){
 			values.Patch_Position = 2;
-		}else if(item.CP_x_coordinates.item(values.Index) == "61.3%" && item.CP_y_coordinates.item(values.Index) == "30%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "63.3%" && item.CP_y_coordinates.item(values.Index) == "30%"){
 			values.Patch_Position = 3;
-		}else if(item.CP_x_coordinates.item(values.Index) == "38.7%" && item.CP_y_coordinates.item(values.Index) == "50%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "36.7%" && item.CP_y_coordinates.item(values.Index) == "50%"){
 			values.Patch_Position = 4;
 		}else if(item.CP_x_coordinates.item(values.Index) == "50%" && item.CP_y_coordinates.item(values.Index) == "50%"){
 			values.Patch_Position = 5;
-		}else if(item.CP_x_coordinates.item(values.Index) == "61.3%" && item.CP_y_coordinates.item(values.Index) == "50%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "63.3%" && item.CP_y_coordinates.item(values.Index) == "50%"){
 			values.Patch_Position = 6;
-		}else if(item.CP_x_coordinates.item(values.Index) == "38.7%" && item.CP_y_coordinates.item(values.Index) == "70%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "36.7%" && item.CP_y_coordinates.item(values.Index) == "70%"){
 			values.Patch_Position = 7;
 		}else if(item.CP_x_coordinates.item(values.Index) == "50%" && item.CP_y_coordinates.item(values.Index) == "70%"){
 			values.Patch_Position = 8;
-		}else if(item.CP_x_coordinates.item(values.Index) == "61.3%" && item.CP_y_coordinates.item(values.Index) == "70%"){
+		}else if(item.CP_x_coordinates.item(values.Index) == "63.3%" && item.CP_y_coordinates.item(values.Index) == "70%"){
 			values.Patch_Position = 9;
 		}
 	}
@@ -702,23 +746,23 @@ The structure will be same
 		values.Patch_Source = 1;
 		values.Exist_Object = 0;
 		
-		if(values.x_coordinate == 38.7% && values.y_coordinate == 30%){
+		if(values.x_coordinate == 36.7% && values.y_coordinate == 30%){
 			values.Patch_Position = 1;
 		}else if(values.x_coordinate == 50% && values.y_coordinate == 30%){
 			values.Patch_Position = 2;
-		}else if(values.x_coordinate == 61.3% && values.y_coordinate == 30%){
+		}else if(values.x_coordinate == 63.3% && values.y_coordinate == 30%){
 			values.Patch_Position = 3;
-		}else if(values.x_coordinate == 38.7% && values.y_coordinate == 50%){
+		}else if(values.x_coordinate == 36.7% && values.y_coordinate == 50%){
 			values.Patch_Position = 4;
 		}else if(values.x_coordinate == 50% && values.y_coordinate == 50%){
 			values.Patch_Position = 5;
-		}else if(values.x_coordinate == 61.3% && values.y_coordinate == 50%){
+		}else if(values.x_coordinate == 63.3% && values.y_coordinate == 50%){
 			values.Patch_Position = 6;
-		}else if(values.x_coordinate == 38.7% && values.y_coordinate == 70%){
+		}else if(values.x_coordinate == 36.7% && values.y_coordinate == 70%){
 			values.Patch_Position = 7;
 		}else if(values.x_coordinate == 50% && values.y_coordinate == 70%){
 			values.Patch_Position = 8;
-		}else if(values.x_coordinate == 61.3% && values.y_coordinate == 70%){
+		}else if(values.x_coordinate == 63.3% && values.y_coordinate == 70%){
 			values.Patch_Position = 9;
 		}
 	}
@@ -726,6 +770,10 @@ The structure will be same
 	/ stimulusframes = [1 = cross]
 	/ timeout = 133
 	/ recorddata = false
+	/ ontrialend = [
+	trial.Patch_present_even.clearstimulusframes();
+	picture.Present_image_patch_step.clearitems();
+]
 	/ branch = [
 		trial.mask_patch
 ]

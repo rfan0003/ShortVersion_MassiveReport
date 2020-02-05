@@ -8,6 +8,13 @@
 	/ select = sequence 
 </picture>
 
+<picture Present_image_patch_step>
+	/ size=(60%, 60%)
+	/ position = (50%,50%)
+	/ items = ()
+	/ select = sequence
+</picture>
+
 <picture Congruent_practice>
 	/ size=(60%, 60%)
 	/ position = (50%,50%)

@@ -275,387 +275,51 @@ fprintf(fid,'</item>\n\n');
 %% Create Picture Stimuli
 %% Create Groups when IP in odd position
 %Create Group of Position 1
-%Practice
-fprintf(fid,'<picture Patch_locate_1_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (38.7%%,30%%)\n');
-fprintf(fid,'  /items = ()\n');
-fprintf(fid,'  /select = sequence\n');
-fprintf(fid,'</picture>\n');
-fprintf(fid,'<picture Patch_locate_1_practice_item>\n');
-temp_1 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 1
-               item_content = sprintf('cong_%d_1_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_1_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_1 = temp_1 + 1;
-            fprintf(fid,'/%d = "%s"\n',temp_1,item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 1
-               item_content = sprintf('incong_%d_1_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_1_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_1 = temp_1 + 1;
-            fprintf(fid,'/%d = "%s"\n',temp_1,item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,'</picture>\n\n');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formal
 fprintf(fid,'<picture Patch_locate_1>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (38.7%%,30%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 1
-               item_content = sprintf('cong_%d_1_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_1_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 1
-               item_content = sprintf('incong_%d_1_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_1_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / position = (50%%,50%%)\n');
+fprintf(fid,'  /items = ("location1.png")');
 fprintf(fid,'/select = sequence\n');
 fprintf(fid,'</picture>\n\n');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Practice
-%Create Group of Position 3
-fprintf(fid,'<picture Patch_locate_3_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (61.3%%,30%%)\n');
-fprintf(fid,'  /items = ()\n');
-fprintf(fid,'  /select = sequence\n');
-fprintf(fid,'</picture>\n');
-fprintf(fid,'<picture Patch_locate_3_practice_item>\n');
-temp_3 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 3
-               item_content = sprintf('cong_%d_3_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_3_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_3 = temp_3 + 1;
-            fprintf(fid,'/%d = "%s"\n',temp_3,item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 3
-               item_content = sprintf('incong_%d_3_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_3_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_3 = temp_3 + 1;
-            fprintf(fid,'/%d = "%s"\n',temp_3,item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,'</picture>\n\n');
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formal
 %Create Group of Position 3
 fprintf(fid,'<picture Patch_locate_3>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (61.3%%,30%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 3
-               item_content = sprintf('cong_%d_3_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_3_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 3
-               item_content = sprintf('incong_%d_3_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_3_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / position = (50%%,50%%)\n');
+fprintf(fid,'  /items = ("location3.png")');
 fprintf(fid,'/select = sequence\n');
 fprintf(fid,'</picture>\n\n');
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Practice
-%Create Group of Position 5
-fprintf(fid,'<picture Patch_locate_5_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (50%%,50%%)\n');
-fprintf(fid,'  /items = ()\n');
-fprintf(fid,'  /select = sequence\n');
-fprintf(fid,'</picture>\n');
-fprintf(fid,'<picture Patch_locate_5_practice_item>\n');
-temp_5 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 5
-               item_content = sprintf('cong_%d_5_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_5_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_5 = temp_5 + 1;
-            fprintf(fid,'/%d = "%s"\n',temp_5,item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 5
-               item_content = sprintf('incong_%d_5_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_5_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_5 = temp_5 + 1;
-            fprintf(fid,'/%d = "%s"\n',temp_5,item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,'</picture>\n\n');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formal
 %Create Group of Position 5
 fprintf(fid,'<picture Patch_locate_5>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 5
-               item_content = sprintf('cong_%d_5_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_5_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 5
-               item_content = sprintf('incong_%d_5_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_5_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  /items = ("location5.png")');
 fprintf(fid,'/select = sequence\n');
 fprintf(fid,'</picture>\n\n');
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Practice
-%Create Group of Position 7
-fprintf(fid,'<picture Patch_locate_7_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (38.7%%,70%%)\n');
-fprintf(fid,'  /items = ()\n');
-fprintf(fid,'  /select = sequence\n');
-fprintf(fid,'</picture>\n');
-fprintf(fid,'<picture Patch_locate_7_practice_item>\n');
-temp_7 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 7
-               item_content = sprintf('cong_%d_7_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_7_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_7 = temp_7 + 1;
-            fprintf(fid,'/%d = "%s"\n',temp_7,item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 7
-               item_content = sprintf('incong_%d_7_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_7_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_7 = temp_7 + 1;
-            fprintf(fid,'/%d = "%s"\n',temp_7,item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,'</picture>\n\n');
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formal
 %Create Group of Position 7
 fprintf(fid,'<picture Patch_locate_7>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (38.7%%,70%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 7
-               item_content = sprintf('cong_%d_7_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_7_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 7
-               item_content = sprintf('incong_%d_7_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_7_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / position = (50%%,50%%)\n');
+fprintf(fid,'  /items = ("location7.png")');
 fprintf(fid,'/select = sequence\n');
-fprintf(fid,'</picture>\n\n');
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Practice
-fprintf(fid,'<picture Patch_locate_9_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (61.3%%,70%%)\n');
-fprintf(fid,'  /items = ()\n');
-fprintf(fid,'  /select = sequence\n');
-fprintf(fid,'</picture>\n');
-fprintf(fid,'<picture Patch_locate_9_practice_item>\n');
-temp_9 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 9
-               item_content = sprintf('cong_%d_9_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_9_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_9 = temp_9 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"    
-        if P_positon_EvenOrOdd_practice(presentation_order) == 1
-            if IP_position_practice(presentation_order) == 9
-               item_content = sprintf('incong_%d_9_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_9_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_9 = temp_9 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
 fprintf(fid,'</picture>\n\n');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formal
 %Create Group of Position 9
 fprintf(fid,'<picture Patch_locate_9>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (61.3%%,70%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 9
-               item_content = sprintf('cong_%d_9_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_9_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"    
-        if P_positon_EvenOrOdd(presentation_order) == 1
-            if IP_position(presentation_order) == 9
-               item_content = sprintf('incong_%d_9_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_9_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / position = (50%%,50%%)\n');
+fprintf(fid,'  /items = ("location9.png")');
 fprintf(fid,'/select = sequence\n');
 fprintf(fid,'</picture>\n\n');
 
@@ -663,118 +327,13 @@ fprintf(fid,'</picture>\n\n');
 
 
 %% Create Groups when IP in even position
-%Practice
-%Create Group of Position 2
-fprintf(fid,'<picture Patch_locate_2_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (50%%,30%%)\n');
-fprintf(fid,'  /items = (');
-temp_2 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 0
-            if IP_position_practice(presentation_order) == 2
-               item_content = sprintf('cong_%d_2_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_2_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_2 = temp_2 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 0
-            if IP_position_practice(presentation_order) == 2
-               item_content = sprintf('incong_%d_2_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_2_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_2 = temp_2 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
-fprintf(fid,'/select = sequence\n');
-fprintf(fid,'</picture>\n\n');
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formal
 %Create Group of Position 2
 fprintf(fid,'<picture Patch_locate_2>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (50%%,30%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 0
-            if IP_position(presentation_order) == 2
-               item_content = sprintf('cong_%d_2_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_2_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd(presentation_order) == 0
-            if IP_position(presentation_order) == 2
-               item_content = sprintf('incong_%d_2_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_2_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
-fprintf(fid,'/select = sequence\n');
-fprintf(fid,'</picture>\n\n');
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Practice
-%Create Group of Position 4
-fprintf(fid,'<picture Patch_locate_4_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (38.7%%,50%%)\n');
-fprintf(fid,'  /items = (');
-temp_4 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 0
-            if IP_position_practice(presentation_order) == 4
-               item_content = sprintf('cong_%d_4_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_4_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_4 = temp_4 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"  
-        if P_positon_EvenOrOdd_practice(presentation_order) == 0
-            if IP_position_practice(presentation_order) == 4
-               item_content = sprintf('incong_%d_4_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_4_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_4 = temp_4 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / position = (50%%,50%%)\n');
+fprintf(fid,'  /items = ("location2.png")');
 fprintf(fid,'/select = sequence\n');
 fprintf(fid,'</picture>\n\n');
 
@@ -782,152 +341,18 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 4
 fprintf(fid,'<picture Patch_locate_4>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (38.7%%,50%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 0
-            if IP_position(presentation_order) == 4
-               item_content = sprintf('cong_%d_4_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_4_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"  
-        if P_positon_EvenOrOdd(presentation_order) == 0
-            if IP_position(presentation_order) == 4
-               item_content = sprintf('incong_%d_4_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_4_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / position = (50%%,50%%)\n');
+fprintf(fid,'  /items = ("location4.png")');
 fprintf(fid,'/select = sequence\n');
 fprintf(fid,'</picture>\n\n');
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Practice
-%Create Group of Position 6
-fprintf(fid,'<picture Patch_locate_6_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (61.3%%,50%%)\n');
-fprintf(fid,'  /items = (');
-temp_6 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 0
-            if IP_position_practice(presentation_order) == 6
-               item_content = sprintf('cong_%d_6_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_6_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_6 = temp_6 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"   
-        if P_positon_EvenOrOdd_practice(presentation_order) == 0
-            if IP_position_practice(presentation_order) == 6
-               item_content = sprintf('incong_%d_6_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_6_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_6 = temp_6 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
-fprintf(fid,'/select = sequence\n');
-fprintf(fid,'</picture>\n\n');
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formal
 %Create Group of Position 6
 fprintf(fid,'<picture Patch_locate_6>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (61.3%%,50%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 0
-            if IP_position(presentation_order) == 6
-               item_content = sprintf('cong_%d_6_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_6_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"   
-        if P_positon_EvenOrOdd(presentation_order) == 0
-            if IP_position(presentation_order) == 6
-               item_content = sprintf('incong_%d_6_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_6_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
-fprintf(fid,'/select = sequence\n');
-fprintf(fid,'</picture>\n\n');
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Practice
-%Create Group of Position 8
-fprintf(fid,'<picture Patch_locate_8_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (50%%,70%%)\n');
-fprintf(fid,'  /items = (');
-temp_8 = 0;
-for presentation_order = 1:length(order_list_practice)
-    if PresentArray_practice(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 0
-            if IP_position_practice(presentation_order) == 8
-               item_content = sprintf('cong_%d_8_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('cong_%d_8_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_8 = temp_8 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray_practice(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd_practice(presentation_order) == 0
-            if IP_position_practice(presentation_order) == 8
-               item_content = sprintf('incong_%d_8_p.jpg',order_list_practice(presentation_order));
-            else
-               item_content = sprintf('incong_%d_8_a.jpg',order_list_practice(presentation_order));
-            end
-            temp_8 = temp_8 + 1;
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / position = (50%%,50%%)\n');
+fprintf(fid,'  /items = ("location6.png")');
 fprintf(fid,'/select = sequence\n');
 fprintf(fid,'</picture>\n\n');
 
@@ -935,37 +360,9 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 8
 fprintf(fid,'<picture Patch_locate_8>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
-fprintf(fid,'  / position = (50%%,70%%)\n');
-fprintf(fid,'  /items = (');
-for presentation_order = 1:length(order_list)
-    if PresentArray(presentation_order) == "Cong"
-        if P_positon_EvenOrOdd(presentation_order) == 0
-            if IP_position(presentation_order) == 8
-               item_content = sprintf('cong_%d_8_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('cong_%d_8_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_Congruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    elseif PresentArray(presentation_order) == "INcong"
-        if P_positon_EvenOrOdd(presentation_order) == 0
-            if IP_position(presentation_order) == 8
-               item_content = sprintf('incong_%d_8_p.jpg',order_list(presentation_order));
-            else
-               item_content = sprintf('incong_%d_8_a.jpg',order_list(presentation_order));
-            end
-
-            fprintf(fid,'"%s",\n',item_content);
-            file_name = sprintf('%s%s',file_path_inCongruent_Patch,item_content);
-            copyfile(file_name,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
-        end
-    end
-end
-fprintf(fid,')\n');
+fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / position = (50%%,50%%)\n');
+fprintf(fid,'  /items = ("location8.png")');
 fprintf(fid,'/select = sequence\n');
 fprintf(fid,'</picture>\n\n');
 
