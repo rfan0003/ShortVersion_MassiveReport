@@ -200,11 +200,11 @@ CP_x_coordinates_practice = string(ones(1,Total_Trial_number_practice));
 CP_y_coordinates_practice = string(ones(1,Total_Trial_number_practice));
 for presentation_number = 1:Total_Trial_number_practice
     if IP_position_practice(presentation_number) == 1 || IP_position_practice(presentation_number) == 4 || IP_position_practice(presentation_number) == 7
-        CP_x_coordinates_practice(presentation_number) = "38.7";
+        CP_x_coordinates_practice(presentation_number) = "36.7";
     elseif IP_position_practice(presentation_number) == 2 || IP_position_practice(presentation_number) == 5 || IP_position_practice(presentation_number) == 8
         CP_x_coordinates_practice(presentation_number) = "50";
     elseif IP_position_practice(presentation_number) == 3 || IP_position_practice(presentation_number) == 6 || IP_position_practice(presentation_number) == 9
-        CP_x_coordinates_practice(presentation_number) = "61.3";
+        CP_x_coordinates_practice(presentation_number) = "63.3";
     end    
 end
 
