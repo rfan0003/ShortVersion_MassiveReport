@@ -1,8 +1,0 @@
-<include>
-/ file = "PictureAndText.iqx"
-/ file = "InstructionPage.iqx"
-/ file = "MainStructure.iqx"
-/ file = "8CR_4page.iqx"
-/ file = "8CR_disks.iqx"
-/ file = "BaseScript_B4_G3.iqx"
-</include>
