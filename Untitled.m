@@ -15,6 +15,16 @@ for subject = 1:18
         file_4 = 'GIFSource\seriesPatch.gif';
         file_5 = 'monash-logo-mono.png';
         file_6 = 'consent_form.html';
+        
+        location1 = 'CommonFile\location1.png';
+        location2 = 'CommonFile\location2.png';
+        location3 = 'CommonFile\location3.png';
+        location4 = 'CommonFile\location4.png';
+        location5 = 'CommonFile\location5.png';
+        location6 = 'CommonFile\location6.png';
+        location7 = 'CommonFile\location7.png';
+        location8 = 'CommonFile\location8.png';
+        location9 = 'CommonFile\location9.png';
 %         file_5 = 'response/8CR_4page.iqx';
 %         file_6 = 'response/8CR_disks.iqx';
         copyfile(file_1,DST_PATH_t);%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%COPY
@@ -23,6 +33,17 @@ for subject = 1:18
         copyfile(file_4,DST_PATH_t);
         copyfile(file_5,DST_PATH_t);
         copyfile(file_6,DST_PATH_t);
+        
+        copyfile(location1,DST_PATH_t);
+        copyfile(location2,DST_PATH_t);
+        copyfile(location3,DST_PATH_t);
+        copyfile(location4,DST_PATH_t);
+        copyfile(location5,DST_PATH_t);
+        copyfile(location6,DST_PATH_t);
+        copyfile(location7,DST_PATH_t);
+        copyfile(location8,DST_PATH_t);
+        copyfile(location9,DST_PATH_t);
+        
 %         copyfile(file_5,DST_PATH_t);
 %         copyfile(file_6,DST_PATH_t);
         

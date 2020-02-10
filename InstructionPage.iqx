@@ -63,7 +63,7 @@ Use a scale of 1-4 to describe your confidence(1 => Not confident at all; 4 => H
 ***********************************************************************************************************
 <text instruction_series>
 	/ items = ("For each presented image, you will see series small patches
-The experiment will take approximately 20 mins to complete
+The experiment will take approximately 30 mins(Including download time) to complete
 ")
 	/ fontstyle = ("Arial", 2.8%, true)
 	/ txbgcolor = (127,127,127)

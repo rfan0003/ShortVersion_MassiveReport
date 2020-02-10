@@ -23,7 +23,7 @@ Total_Trial_number = 14; %% Define how many congruent images are used to present
 Total_Trial_number_practice = 3;
 Number_of_Masking = 20;
 imagesc_matrix = ones(140,18);
-for subject = 1:18
+for subject = 1:1
 order_list_group = randperm(140,140);
 imagesc_matrix(:,subject) = order_list_group';
 for group = 1:10
@@ -236,11 +236,11 @@ CP_x_coordinates = string(ones(1,Total_Trial_number));
 CP_y_coordinates = string(ones(1,Total_Trial_number));
 for presentation_number = 1:Total_Trial_number
     if IP_position(presentation_number) == 1 || IP_position(presentation_number) == 4 || IP_position(presentation_number) == 7
-        CP_x_coordinates(presentation_number) = "38.7";
+        CP_x_coordinates(presentation_number) = "36.7";
     elseif IP_position(presentation_number) == 2 || IP_position(presentation_number) == 5 || IP_position(presentation_number) == 8
         CP_x_coordinates(presentation_number) = "50";
     elseif IP_position(presentation_number) == 3 || IP_position(presentation_number) == 6 || IP_position(presentation_number) == 9
-        CP_x_coordinates(presentation_number) = "61.3";
+        CP_x_coordinates(presentation_number) = "63.3";
     end    
 end
 
@@ -504,36 +504,36 @@ fprintf(fid,'</instruct>\n');
 
 
 
-fprintf(fid,'<expt Throughout>\n');
-fprintf(fid,'/ preinstructions = (intro)\n');
-fprintf(fid,'/ postinstructions = (end)\n');
-fprintf(fid,'/ blocks = [');
-fprintf(fid,'1 = consent;\n');
-fprintf(fid,'2 = instruction_step;\n');
-even_block = 'test_even';
-even_block_practice = 'test_even_practice';
-odd_block = 'test_odd';
-odd_block_practice = 'test_odd_practice';
-for presentation_order = 1:length(order_list_practice)
-    if P_positon_EvenOrOdd_practice(presentation_order) == 0
-        fprintf(fid,'%d = %s;\n',presentation_order+2,even_block_practice);
-    elseif P_positon_EvenOrOdd_practice(presentation_order) == 1
-        fprintf(fid,'%d = %s;\n',presentation_order+2,odd_block_practice);
-    end
-end
-
-fprintf(fid,'%d = %s;\n',Total_Trial_number_practice+3,'start_test');
-fprintf(fid,'%d = %s;\n',Total_Trial_number_practice+4,'start_attention');
-
-for presentation_order = 1 : Total_Trial_number 
-    if P_positon_EvenOrOdd(presentation_order) == 0
-        fprintf(fid,'%d = %s;\n',presentation_order + Total_Trial_number_practice +4,even_block);
-    elseif P_positon_EvenOrOdd(presentation_order) == 1
-        fprintf(fid,'%d = %s;\n',presentation_order + Total_Trial_number_practice +4,odd_block);
-    end
-end
-fprintf(fid,']\n');
-fprintf(fid,'</expt>\n\n');
+% fprintf(fid,'<expt Throughout>\n');
+% fprintf(fid,'/ preinstructions = (intro)\n');
+% fprintf(fid,'/ postinstructions = (end)\n');
+% fprintf(fid,'/ blocks = [');
+% fprintf(fid,'1 = consent;\n');
+% fprintf(fid,'2 = instruction_step;\n');
+% even_block = 'test_even';
+% even_block_practice = 'test_even_practice';
+% odd_block = 'test_odd';
+% odd_block_practice = 'test_odd_practice';
+% for presentation_order = 1:length(order_list_practice)
+%     if P_positon_EvenOrOdd_practice(presentation_order) == 0
+%         fprintf(fid,'%d = %s;\n',presentation_order+2,even_block_practice);
+%     elseif P_positon_EvenOrOdd_practice(presentation_order) == 1
+%         fprintf(fid,'%d = %s;\n',presentation_order+2,odd_block_practice);
+%     end
+% end
+% 
+% fprintf(fid,'%d = %s;\n',Total_Trial_number_practice+3,'start_test');
+% fprintf(fid,'%d = %s;\n',Total_Trial_number_practice+4,'start_attention');
+% 
+% for presentation_order = 1 : Total_Trial_number 
+%     if P_positon_EvenOrOdd(presentation_order) == 0
+%         fprintf(fid,'%d = %s;\n',presentation_order + Total_Trial_number_practice +4,even_block);
+%     elseif P_positon_EvenOrOdd(presentation_order) == 1
+%         fprintf(fid,'%d = %s;\n',presentation_order + Total_Trial_number_practice +4,odd_block);
+%     end
+% end
+% fprintf(fid,']\n');
+% fprintf(fid,'</expt>\n\n');
 fclose(fid);
 
 
