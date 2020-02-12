@@ -123,8 +123,8 @@
 
 <picture CP_patch_practice>
 	/ size = (20%,20%)
-	/ hposition = text.x_practice.item(values.Index_practice)
-	/ vposition = text.y_practice.item(values.Index_practice)
+	/ hposition = text.x_practice.item(values.order_practice)
+	/ vposition = text.y_practice.item(values.order_practice)
 	/ items = CP_patch_practice
 	/ select = sequence
 </picture>

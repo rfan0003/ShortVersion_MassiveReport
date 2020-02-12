@@ -618,20 +618,7 @@ The structure will be same
 </trial>
 
 
-
-
 3. 2. Trials for the image with CP on even positions 
-<trial fixiation_even>
-	/ stimulusframes = [1 = cross]
-	/ timeout = 500
-	/ recorddata = false
-	/ ontrialend = [
-	values.number_of_patch = 21
-]
-	/ branch = [
-	trial.Patch_present_even;
-]
-</trial>
 
 <trial Patch_present_even>
 	/ ontrialbegin = [
