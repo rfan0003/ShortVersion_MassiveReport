@@ -1,6 +1,6 @@
 clc
 clear
-for subject = 1:18
+for subject = 1:1
     for group = 1:10
         filename = sprintf('Script_B%d_G%d.iqx',subject,group);
         fid = fopen(filename,'w');
