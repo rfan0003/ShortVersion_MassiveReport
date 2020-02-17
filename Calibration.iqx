@@ -1,0 +1,60 @@
+﻿<values>
+/ Image_size = 1px * display.getpixelsy(75, 1)
+/ line_size = values.Image_size * (2/19.44)
+</values>
+
+***********************************************************************************************************
+***********************************************************************************************************
+Calibration Operation
+<shape calibration_image>
+/ position = (50%,50%)
+/ shape = rectangle
+/ color = white
+/ height = values.Image_size
+/ width = values.Image_size
+</shape>
+
+<shape calibration_line>
+/ position = (50%,50%)
+/ shape = rectangle
+/ color = black
+/ width = values.line_size
+/ height = 20px
+</shape>
+
+<text calibration_title>
+/ items = ("Calibration Step")
+/ fontstyle = ("Arial", 3%, true)
+/ position = (50%,5%)
+/ txbgcolor = (127,127,127)
+/ txcolor = yellow
+</text>
+
+<text calibration_explaination>
+/ items = ("Adjust your head position until you see your thumb has 
+a similar width with the black line at the center of the screen ")
+/ fontstyle = ("Arial", 3%, true)
+/ position = (50%,93%)
+/ txbgcolor = (127,127,127)
+/ txcolor = yellow
+</text>
+
+
+<trial calibration>
+/ stimulusframes = [1 = calibration_image,calibration_line,calibration_title,calibration_explaination]
+/ validresponse = (57)
+</trial>
+
+***********************************************************************************************************
+***********************************************************************************************************
+Calibration Instruction Pages
+
+
+
+
+
+
+
+
+
+

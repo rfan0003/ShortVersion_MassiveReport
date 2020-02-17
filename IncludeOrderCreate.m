@@ -5,6 +5,7 @@ for subject = 1:1
         filename = sprintf('Script_B%d_G%d.iqx',subject,group);
         fid = fopen(filename,'w');
         fprintf(fid,'<include>\n');
+        fprintf(fid,'/ file = "Calibration.iqx"\n');
         fprintf(fid,'/ file = "PictureAndText.iqx"\n');
         fprintf(fid,'/ file = "InstructionPage.iqx"\n');
         fprintf(fid,'/ file = "MainStructure.iqx"\n');

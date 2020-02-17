@@ -46,7 +46,8 @@ for subject = 1:1
         
 %         copyfile(file_5,DST_PATH_t);
 %         copyfile(file_6,DST_PATH_t);
-        
+    file_name = 'Calibration.iqx';
+    copyfile(file_name,DST_PATH_t);    
     file_name = 'InstructionPage.iqx';
     copyfile(file_name,DST_PATH_t);
     file_name = 'MainStructure.iqx';

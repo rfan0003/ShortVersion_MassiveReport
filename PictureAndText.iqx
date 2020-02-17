@@ -2,14 +2,14 @@
 1. Cross throughout the whole project
 
 <picture Congruent>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = image_presentation_Congruent
 	/ select = sequence 
 </picture>
 
 <picture Image_present>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = ()
 	/ select = sequence 
@@ -18,21 +18,21 @@
 
 
 <picture Present_image_patch_step>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = ()
 	/ select = sequence
 </picture>
 
 <picture Congruent_practice>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = image_presentation_Congruent_practice
 	/ select = sequence 
 </picture>
 
 <picture Image_present_practice>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = ()
 	/ select = sequence 
@@ -41,66 +41,66 @@
 ***************************************************************************************************
 2. Masking Pictures
 <picture Masking_picture_1>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/items = Masking_item_1
 	/ select = noreplace 
 </picture>
 <picture Masking_picture_2>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = Masking_item_2
 	/ select = noreplace 
 </picture>
 <picture Masking_picture_3>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = Masking_item_3
 	/ select = noreplace 
 </picture>
 <picture Masking_picture_4>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = Masking_item_4
 	/ select = noreplace 
 </picture>
 <picture Masking_picture_5>
-	/ size=(60%, 60%)
+	/ size=(values.Image_size, values.Image_size)
 	/ position = (50%,50%)
 	/ items = Masking_item_5
 	/ select = noreplace 
 </picture>
 
 <picture Masking_patch_1>
-	/ size = (20%,20%)
+	/ size=(values.Image_size/3, values.Image_size/3)
 	/ hposition = values.x_coordinate
 	/ vposition = values.y_coordinate
 	/ items = Masking_patch_item_1
 	/ select = noreplace 
 </picture>
 <picture Masking_patch_2>
-	/ size = (20%,20%)
+	/ size=(values.Image_size/3, values.Image_size/3)
 	/ hposition = values.x_coordinate
 	/ vposition = values.y_coordinate
 	/ items = Masking_patch_item_2
 	/ select = noreplace 
 </picture>
 <picture Masking_patch_3>
-	/ size = (20%,20%)
+	/ size=(values.Image_size/3, values.Image_size/3)
 	/ hposition = values.x_coordinate
 	/ vposition = values.y_coordinate
 	/ items = Masking_patch_item_3
 	/ select = noreplace 
 </picture>
 <picture Masking_patch_4>
-	/ size = (20%,20%)
+	/ size=(values.Image_size/3, values.Image_size/3)
 	/ hposition = values.x_coordinate
 	/ vposition = values.y_coordinate
 	/ items = Masking_patch_item_4
 	/ select = noreplace 
 </picture>
 <picture Masking_patch_5>
-	/ size = (20%,20%)
+	/ size=(values.Image_size/3, values.Image_size/3)
 	/ hposition = values.x_coordinate
 	/ vposition = values.y_coordinate
 	/ items = Masking_patch_item_5
@@ -108,13 +108,13 @@
 </picture>
 
 <picture CP_patch>
-	/ size = (20%,20%)
+	/ size=(values.Image_size/3, values.Image_size/3)
 	/ items = CP_patch
 	/ select = sequence
 </picture>
 
 <picture CP_patch_present>
-	/ size = (20%,20%)
+	/ size=(values.Image_size/3, values.Image_size/3)
 	/ hposition = text.x.item(values.order)
 	/ vposition = text.y.item(values.order)
 	/ items = ()
@@ -122,7 +122,7 @@
 </picture>
 
 <picture CP_patch_practice>
-	/ size = (20%,20%)
+	/ size=(values.Image_size/3, values.Image_size/3)
 	/ hposition = text.x_practice.item(values.order_practice)
 	/ vposition = text.y_practice.item(values.order_practice)
 	/ items = CP_patch_practice

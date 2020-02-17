@@ -200,21 +200,21 @@ CP_x_coordinates_practice = string(ones(1,Total_Trial_number_practice));
 CP_y_coordinates_practice = string(ones(1,Total_Trial_number_practice));
 for presentation_number = 1:Total_Trial_number_practice
     if IP_position_practice(presentation_number) == 1 || IP_position_practice(presentation_number) == 4 || IP_position_practice(presentation_number) == 7
-        CP_x_coordinates_practice(presentation_number) = "36.7";
+        CP_x_coordinates_practice(presentation_number) = "33.3";
     elseif IP_position_practice(presentation_number) == 2 || IP_position_practice(presentation_number) == 5 || IP_position_practice(presentation_number) == 8
         CP_x_coordinates_practice(presentation_number) = "50";
     elseif IP_position_practice(presentation_number) == 3 || IP_position_practice(presentation_number) == 6 || IP_position_practice(presentation_number) == 9
-        CP_x_coordinates_practice(presentation_number) = "63.3";
+        CP_x_coordinates_practice(presentation_number) = "66.7";
     end    
 end
 
 for presentation_number = 1:Total_Trial_number_practice
     if IP_position_practice(presentation_number) == 1 || IP_position_practice(presentation_number) == 2 || IP_position_practice(presentation_number) == 3
-        CP_y_coordinates_practice(presentation_number) = "30";
+        CP_y_coordinates_practice(presentation_number) = "25";
     elseif IP_position_practice(presentation_number) == 4 || IP_position_practice(presentation_number) == 5 || IP_position_practice(presentation_number) == 6
         CP_y_coordinates_practice(presentation_number) = "50";
     elseif IP_position_practice(presentation_number) == 7 || IP_position_practice(presentation_number) == 8 || IP_position_practice(presentation_number) == 9
-        CP_y_coordinates_practice(presentation_number) = "70";
+        CP_y_coordinates_practice(presentation_number) = "75";
     end    
 end
 
@@ -236,21 +236,21 @@ CP_x_coordinates = string(ones(1,Total_Trial_number));
 CP_y_coordinates = string(ones(1,Total_Trial_number));
 for presentation_number = 1:Total_Trial_number
     if IP_position(presentation_number) == 1 || IP_position(presentation_number) == 4 || IP_position(presentation_number) == 7
-        CP_x_coordinates(presentation_number) = "36.7";
+        CP_x_coordinates(presentation_number) = "33.3";
     elseif IP_position(presentation_number) == 2 || IP_position(presentation_number) == 5 || IP_position(presentation_number) == 8
         CP_x_coordinates(presentation_number) = "50";
     elseif IP_position(presentation_number) == 3 || IP_position(presentation_number) == 6 || IP_position(presentation_number) == 9
-        CP_x_coordinates(presentation_number) = "63.3";
+        CP_x_coordinates(presentation_number) = "66.7";
     end    
 end
 
 for presentation_number = 1:Total_Trial_number
     if IP_position(presentation_number) == 1 || IP_position(presentation_number) == 2 || IP_position(presentation_number) == 3
-        CP_y_coordinates(presentation_number) = "30";
+        CP_y_coordinates(presentation_number) = "25";
     elseif IP_position(presentation_number) == 4 || IP_position(presentation_number) == 5 || IP_position(presentation_number) == 6
         CP_y_coordinates(presentation_number) = "50";
     elseif IP_position(presentation_number) == 7 || IP_position(presentation_number) == 8 || IP_position(presentation_number) == 9
-        CP_y_coordinates(presentation_number) = "70";
+        CP_y_coordinates(presentation_number) = "75";
     end    
 end
 
@@ -278,7 +278,7 @@ fprintf(fid,'</item>\n\n');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Formal
 fprintf(fid,'<picture Patch_locate_1>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location1.png")');
 fprintf(fid,'/select = sequence\n');
@@ -288,7 +288,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 3
 fprintf(fid,'<picture Patch_locate_3>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location3.png")');
 fprintf(fid,'/select = sequence\n');
@@ -298,7 +298,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 5
 fprintf(fid,'<picture Patch_locate_5>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location5.png")');
 fprintf(fid,'/select = sequence\n');
@@ -307,7 +307,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 7
 fprintf(fid,'<picture Patch_locate_7>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location7.png")');
 fprintf(fid,'/select = sequence\n');
@@ -317,7 +317,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 9
 fprintf(fid,'<picture Patch_locate_9>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location9.png")');
 fprintf(fid,'/select = sequence\n');
@@ -331,7 +331,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 2
 fprintf(fid,'<picture Patch_locate_2>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location2.png")');
 fprintf(fid,'/select = sequence\n');
@@ -341,7 +341,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 4
 fprintf(fid,'<picture Patch_locate_4>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location4.png")');
 fprintf(fid,'/select = sequence\n');
@@ -350,7 +350,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 6
 fprintf(fid,'<picture Patch_locate_6>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location6.png")');
 fprintf(fid,'/select = sequence\n');
@@ -360,7 +360,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 %Create Group of Position 8
 fprintf(fid,'<picture Patch_locate_8>\n');
-fprintf(fid,'  / size = (60%%,60%%)\n');
+fprintf(fid,'  / size=(values.Image_size, values.Image_size)\n');
 fprintf(fid,'  / position = (50%%,50%%)\n');
 fprintf(fid,'  /items = ("location8.png")');
 fprintf(fid,'/select = sequence\n');
@@ -370,7 +370,7 @@ fprintf(fid,'</picture>\n\n');
 %Practice
 % Create Patch Random (N patch frame)
 fprintf(fid,'<picture Patch_random_practice>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
+fprintf(fid,'  / size=(values.Image_size/3, values.Image_size/3)\n');
 fprintf(fid,'  / hposition = values.x_coordinate\n');
 fprintf(fid,'  / vposition = values.y_coordinate\n');
 fprintf(fid,'  / items = (');
@@ -398,7 +398,7 @@ fprintf(fid,'</picture>\n\n');
 %Formal
 % Create Patch Random (N patch frame)
 fprintf(fid,'<picture Patch_random>\n');
-fprintf(fid,'  / size = (20%%,20%%)\n');
+fprintf(fid,'  / size=(values.Image_size/3, values.Image_size/3)\n');
 fprintf(fid,'  / hposition = values.x_coordinate\n');
 fprintf(fid,'  / vposition = values.y_coordinate\n');
 fprintf(fid,'  / items = (');
