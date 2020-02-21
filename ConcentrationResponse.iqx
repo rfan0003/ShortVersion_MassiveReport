@@ -1,0 +1,52 @@
+﻿<text concentration_question>
+/ items = ("Were you distracted in this trial?:
+'YES' and 'NO' correspond to whether you distract in the previous trial.
+'1-4' correspond to the level of your attention 1 => low level, 4 => high level")
+/ fontstyle = ("Arial", 2.8%, true)
+/ txbgcolor = (127,127,127)
+/ position = (50,80)
+</text>
+
+<text concentration_title>
+/ items = ("LEVEL OF ATTENTION")
+/ fontstyle = ("Arial", 2.8%, true)
+/ txcolor = yellow
+/ txbgcolor = (127,127,127)
+/ position = (50%,5%)
+</text>
+
+			
+<trial peripheral_response_concentration>
+/ ontrialbegin = [
+	values.patch_ID = 0;
+	values.CongOrIncong = 0;
+	values.Patch_Source = 0;
+	values.Exist_Object = 0;
+	values.Patch_Position = 0;
+	values.response = 0;
+	values.p_confidence = 0;
+	
+]
+/ stimulusframes = [
+	1  = response1d, response2d, response3d, response4d, response5d, response6d, response7d, response8d, response_blank,
+lowC_instruction, highC_instruction, concentration_question,part_of_Image,Not_part_of_Image,concentration_title
+]
+/ validresponse = (response_blank, response1d, response2d, response3d, response4d, response5d, response6d, response7d, response8d)
+/ inputdevice = mouse
+/ isvalidresponse = [if (trial.peripheral_response_concentration.response == "response_blank") false; else
+expressions.validresponse_disks
+]
+/ recorddata = true
+/ branch = [
+	trial.centermouse_concentration
+]
+</trial>
+
+<trial centermouse_concentration>
+/ stimulusframes = [1  = response1d, response2d, response3d, response4d, response5d, response6d, response7d, response8d, response_blank,
+lowC_instruction, highC_instruction,part_of_Image,Not_part_of_Image,centersquare,notice_centre_mouse,concentration_title]
+/ inputdevice = mouse
+/ recorddata = false
+/ validresponse = (centersquare)
+</trial>
+

@@ -844,12 +844,12 @@ lowC_instruction, highC_instruction,part_of_Image,Not_part_of_Image,centersquare
 </monkey>
 
 <block instruction_step>
-	/ trials = [1 = instruction_page_1;2 = instruction_page_2; 3 = instruction_page_3; 4= instruction_page_4; 5 = instruction_page_5]
+	/ trials = [1 = instruction_page_1;2 = instruction_page_2; 3 = instruction_page_3; 4= instruction_page_4; 5 = calibration_instruction_page1;6 = instruction_page_5]
 </block>
 
 
 <block test>
-	/ trials = [1 = trial.Fixation; 2-22 = trial.fixiation_patch; 23 = trial.interval]
+	/ trials = [1 = trial.Fixation; 2-22 = trial.fixiation_patch; 23 = peripheral_response_concentration; 24 = trial.interval]
 </block>
 
 <block test_practice>
@@ -864,8 +864,6 @@ lowC_instruction, highC_instruction,part_of_Image,Not_part_of_Image,centersquare
 	/ trials = [1 = trial.Start_attention]
 </block>
 
-<block Instruction_stage>
-</block>
 
 
 

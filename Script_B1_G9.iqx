@@ -1,0 +1,10 @@
+<include>
+/ file = "ConcentrationResponse.iqx"
+/ file = "Calibration.iqx"
+/ file = "PictureAndText.iqx"
+/ file = "InstructionPage.iqx"
+/ file = "MainStructure.iqx"
+/ file = "8CR_4page.iqx"
+/ file = "8CR_disks.iqx"
+/ file = "BaseScript_B1_G9.iqx"
+</include>

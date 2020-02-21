@@ -1,4 +1,5 @@
 <include>
+/ file = "ConcentrationResponse.iqx"
 / file = "Calibration.iqx"
 / file = "PictureAndText.iqx"
 / file = "InstructionPage.iqx"
